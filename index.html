@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tryout UTBK – Simulasi Resmi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════ HALAMAN MULAI ═══ -->
+  <div id="page-start" class="page active">
+    <div class="start-hero">
+      <div class="start-badge">SIMULASI RESMI</div>
+      <h1 class="start-title">Tryout <span class="accent">UTBK</span></h1>
+      <p class="start-sub">Seleksi Nasional Berdasarkan Prestasi · Tahun 2025</p>
+      <div class="start-info-grid">
+        <div class="info-card">
+          <span class="info-icon">📋</span>
+          <span class="info-label">Total Subtes</span>
+          <span class="info-val" id="total-subtes-count">8</span>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">❓</span>
+          <span class="info-label">Total Soal</span>
+          <span class="info-val" id="total-soal-count">—</span>
+        </div>
+        <div class="info-card">
+          <span class="info-icon">⏱</span>
+          <span class="info-label">Estimasi Waktu</span>
+          <span class="info-val" id="total-waktu-count">—</span>
+        </div>
+      </div>
+      <div class="subtest-order-list" id="subtest-order-list"></div>
+      <button class="btn-mulai" id="btn-mulai">Mulai Tryout</button>
+      <p class="start-note">Pastikan koneksi internet stabil. Jawaban tersimpan otomatis.</p>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ HALAMAN UJIAN ═══ -->
+  <div id="page-ujian" class="page">
+
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="top-left">
+        <span class="subtest-label" id="subtest-label">TPS – Penalaran Umum</span>
+        <span class="subtest-progress" id="subtest-progress">Subtes 1 dari 8</span>
+      </div>
+      <div class="top-center">
+        <div class="timer-wrap" id="timer-wrap">
+          <span class="timer-icon">⏳</span>
+          <span class="timer-display" id="timer-display">00:00</span>
+        </div>
+      </div>
+      <div class="top-right">
+        <button class="btn-next-sub" id="btn-selesai-subtes">Selesai Subtes →</button>
+      </div>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="ujian-layout">
+
+      <!-- Kiri: Panel Soal -->
+      <main class="soal-panel" id="soal-panel">
+        <div class="soal-header">
+          <span class="soal-num" id="soal-num">Soal 1</span>
+          <span class="soal-bobot" id="soal-bobot">Bobot: 1</span>
+          <button class="btn-ragu" id="btn-ragu" title="Tandai ragu-ragu">⚑ Ragu</button>
+        </div>
+        <div class="soal-text" id="soal-text"></div>
+        <div class="opsi-container" id="opsi-container"></div>
+        <div class="soal-nav">
+          <button class="btn-nav" id="btn-prev">← Sebelumnya</button>
+          <button class="btn-nav btn-primary" id="btn-next">Berikutnya →</button>
+        </div>
+      </main>
+
+      <!-- Kanan: Grid Navigasi -->
+      <aside class="nav-panel">
+        <div class="nav-legend">
+          <span class="legend-item"><span class="dot dot-default"></span>Belum</span>
+          <span class="legend-item"><span class="dot dot-answered"></span>Dijawab</span>
+          <span class="legend-item"><span class="dot dot-ragu"></span>Ragu</span>
+          <span class="legend-item"><span class="dot dot-current"></span>Aktif</span>
+        </div>
+        <div class="nav-grid" id="nav-grid"></div>
+        <div class="nav-summary" id="nav-summary"></div>
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ TRANSISI ANTAR SUBTES ═══ -->
+  <div id="page-transisi" class="page overlay-page">
+    <div class="transisi-card">
+      <div class="transisi-icon" id="transisi-icon">✅</div>
+      <h2 id="transisi-title">Subtes Selesai!</h2>
+      <p id="transisi-desc"></p>
+      <div class="transisi-stats" id="transisi-stats"></div>
+      <button class="btn-mulai" id="btn-lanjut">Lanjut ke Subtes Berikutnya →</button>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════ HALAMAN HASIL ═══ -->
+  <div id="page-hasil" class="page">
+    <div class="hasil-wrap">
+      <div class="hasil-header">
+        <div class="hasil-badge">HASIL TRYOUT</div>
+        <h1 class="hasil-title">Tryout Selesai</h1>
+      </div>
+
+      <div class="skor-utama">
+        <div class="skor-circle">
+          <svg viewBox="0 0 200 200" class="skor-ring">
+            <circle cx="100" cy="100" r="80" class="ring-bg"/>
+            <circle cx="100" cy="100" r="80" class="ring-fill" id="ring-fill"/>
+          </svg>
+          <div class="skor-inner">
+            <span class="skor-angka" id="skor-angka">—</span>
+            <span class="skor-label-small">/ <span id="skor-max">—</span></span>
+            <span class="skor-persen" id="skor-persen">—%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hasil-rincian" id="hasil-rincian"></div>
+
+      <div class="hasil-detail-wrap">
+        <h3 class="detail-heading">Pembahasan Jawaban</h3>
+        <div id="detail-pembahasan"></div>
+      </div>
+
+      <button class="btn-mulai" onclick="location.reload()">🔄 Ulangi Tryout</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

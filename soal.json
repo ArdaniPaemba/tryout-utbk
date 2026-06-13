@@ -1,0 +1,2272 @@
+{
+  "subtests": [
+    {
+      "id": "tps_pu_induktif",
+      "nama": "TPS – Penalaran Umum: Induktif",
+      "durasi_menit": 10,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Semua dokter adalah sarjana. Andi adalah dokter. Kesimpulan yang tepat adalah...",
+          "opsi": {
+            "A": "Andi bukan sarjana",
+            "B": "Andi adalah sarjana",
+            "C": "Andi belum tentu sarjana",
+            "D": "Semua sarjana adalah dokter",
+            "E": "Tidak ada kesimpulan yang tepat"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam sebuah barisan: 2, 4, 8, 16, ... Bilangan berikutnya adalah...",
+          "opsi": {
+            "A": "18",
+            "B": "24",
+            "C": "32",
+            "D": "28",
+            "E": "20"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika BUKU = 2-21-11-21, maka MEJA = ...",
+          "opsi": {
+            "A": "13-5-10-1",
+            "B": "13-5-11-1",
+            "C": "13-5-9-1",
+            "D": "13-5-10-2",
+            "E": "14-5-10-1"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Perhatikan pola: 1, 1, 2, 3, 5, 8, 13, ... Angka selanjutnya adalah...",
+          "opsi": {
+            "A": "18",
+            "B": "20",
+            "C": "21",
+            "D": "22",
+            "E": "25"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Semua kucing adalah hewan. Sebagian hewan adalah berbulu. Maka...",
+          "opsi": {
+            "A": "Semua kucing berbulu",
+            "B": "Sebagian kucing berbulu",
+            "C": "Tidak ada kucing yang berbulu",
+            "D": "Semua yang berbulu adalah kucing",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "E"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika hari ini Senin, maka 100 hari lagi adalah hari...",
+          "opsi": {
+            "A": "Senin",
+            "B": "Selasa",
+            "C": "Rabu",
+            "D": "Kamis",
+            "E": "Jumat"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata yang tidak sekelompok dengan yang lain: Merah, Biru, Kuning, Bulat, Hijau",
+          "opsi": {
+            "A": "Merah",
+            "B": "Biru",
+            "C": "Kuning",
+            "D": "Bulat",
+            "E": "Hijau"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Ani lebih tinggi dari Budi. Budi lebih tinggi dari Cici. Maka...",
+          "opsi": {
+            "A": "Cici lebih tinggi dari Ani",
+            "B": "Ani lebih rendah dari Cici",
+            "C": "Ani adalah yang tertinggi",
+            "D": "Budi adalah yang terendah",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Barisan: 3, 6, 12, 24, 48, ... nilai berikutnya adalah...",
+          "opsi": {
+            "A": "72",
+            "B": "84",
+            "C": "96",
+            "D": "100",
+            "E": "108"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika A > B dan C > A, maka urutan dari terbesar adalah...",
+          "opsi": {
+            "A": "A, B, C",
+            "B": "B, A, C",
+            "C": "C, A, B",
+            "D": "C, B, A",
+            "E": "A, C, B"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "id": "tps_pu_deduktif",
+      "nama": "TPS – Penalaran Umum: Deduktif",
+      "durasi_menit": 10,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Tidak ada manusia yang abadi. Socrates adalah manusia. Kesimpulan: ...",
+          "opsi": {
+            "A": "Socrates abadi",
+            "B": "Socrates tidak abadi",
+            "C": "Semua manusia seperti Socrates",
+            "D": "Sebagian manusia abadi",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika hujan, maka jalanan basah. Jalanan tidak basah. Maka...",
+          "opsi": {
+            "A": "Hujan",
+            "B": "Tidak hujan",
+            "C": "Mungkin hujan",
+            "D": "Mungkin tidak hujan",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Semua siswa yang rajin akan lulus. Dewi lulus. Maka...",
+          "opsi": {
+            "A": "Dewi pasti rajin",
+            "B": "Dewi tidak rajin",
+            "C": "Dewi mungkin tidak rajin",
+            "D": "Semua yang lulus adalah rajin",
+            "E": "Tidak dapat disimpulkan apakah Dewi rajin"
+          },
+          "jawaban": "E"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Premis 1: Jika p maka q. Premis 2: p benar. Kesimpulan yang valid adalah...",
+          "opsi": {
+            "A": "q salah",
+            "B": "p salah",
+            "C": "q benar",
+            "D": "p dan q keduanya salah",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Semua pegawai mendapat tunjangan. Hendra adalah pegawai. Hendra sakit. Maka...",
+          "opsi": {
+            "A": "Hendra tidak mendapat tunjangan",
+            "B": "Hendra mendapat tunjangan",
+            "C": "Pegawai yang sakit tidak mendapat tunjangan",
+            "D": "Hendra bukan pegawai",
+            "E": "Tidak ada yang bisa disimpulkan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Tidak semua burung bisa terbang. Pinguin adalah burung. Maka...",
+          "opsi": {
+            "A": "Pinguin pasti bisa terbang",
+            "B": "Pinguin pasti tidak bisa terbang",
+            "C": "Pinguin mungkin bisa atau tidak bisa terbang",
+            "D": "Semua burung seperti pinguin",
+            "E": "Tidak ada burung yang bisa terbang"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika A maka B. Jika B maka C. A terjadi. Maka...",
+          "opsi": {
+            "A": "C tidak terjadi",
+            "B": "B tidak terjadi",
+            "C": "C terjadi",
+            "D": "A tidak terjadi",
+            "E": "Hanya B yang terjadi"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Semua dokter harus lulus kuliah kedokteran. Rina lulus kuliah kedokteran. Maka...",
+          "opsi": {
+            "A": "Rina adalah dokter",
+            "B": "Rina bukan dokter",
+            "C": "Rina belum tentu dokter",
+            "D": "Rina pasti dokter yang baik",
+            "E": "Semua dokter seperti Rina"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Pernyataan: 'Jika tidak belajar maka tidak lulus'. Kontraposisinya adalah...",
+          "opsi": {
+            "A": "Jika lulus maka belajar",
+            "B": "Jika belajar maka lulus",
+            "C": "Jika tidak lulus maka tidak belajar",
+            "D": "Jika lulus maka tidak belajar",
+            "E": "Jika belajar maka tidak lulus"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Beberapa mahasiswa suka membaca. Semua yang suka membaca rajin. Maka...",
+          "opsi": {
+            "A": "Semua mahasiswa rajin",
+            "B": "Tidak ada mahasiswa yang rajin",
+            "C": "Beberapa mahasiswa rajin",
+            "D": "Semua yang rajin adalah mahasiswa",
+            "E": "Tidak dapat disimpulkan"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "id": "tps_pu_kuantitatif",
+      "nama": "TPS – Penalaran Umum: Kuantitatif",
+      "durasi_menit": 10,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika 3x + 5 = 20, maka nilai x adalah...",
+          "opsi": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah toko memberikan diskon 25% untuk barang seharga Rp 200.000. Harga setelah diskon adalah...",
+          "opsi": {
+            "A": "Rp 140.000",
+            "B": "Rp 150.000",
+            "C": "Rp 160.000",
+            "D": "Rp 170.000",
+            "E": "Rp 175.000"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Rata-rata nilai 5 siswa adalah 75. Jika satu siswa ditambahkan dengan nilai 90, rata-rata baru adalah...",
+          "opsi": {
+            "A": "77,5",
+            "B": "78",
+            "C": "78,5",
+            "D": "79",
+            "E": "80"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Perbandingan uang Ani dan Budi adalah 3:5. Jika total uang mereka Rp 240.000, uang Budi adalah...",
+          "opsi": {
+            "A": "Rp 80.000",
+            "B": "Rp 90.000",
+            "C": "Rp 100.000",
+            "D": "Rp 120.000",
+            "E": "Rp 150.000"
+          },
+          "jawaban": "E"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Luasnya adalah...",
+          "opsi": {
+            "A": "20 cm²",
+            "B": "40 cm²",
+            "C": "80 cm²",
+            "D": "96 cm²",
+            "E": "100 cm²"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika 20% dari suatu bilangan adalah 40, maka bilangan tersebut adalah...",
+          "opsi": {
+            "A": "100",
+            "B": "150",
+            "C": "200",
+            "D": "250",
+            "E": "300"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah kereta menempuh jarak 300 km dalam 4 jam. Kecepatan rata-rata kereta adalah...",
+          "opsi": {
+            "A": "60 km/jam",
+            "B": "70 km/jam",
+            "C": "75 km/jam",
+            "D": "80 km/jam",
+            "E": "90 km/jam"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Berapa banyak bilangan prima antara 10 dan 30?",
+          "opsi": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6",
+            "E": "7"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Nilai dari (2³ × 2²) ÷ 2⁴ adalah...",
+          "opsi": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "8",
+            "E": "16"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam sebuah kelas terdapat 40 siswa. Jika 60% adalah perempuan, berapa jumlah siswa laki-laki?",
+          "opsi": {
+            "A": "12",
+            "B": "14",
+            "C": "16",
+            "D": "18",
+            "E": "20"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "id": "tps_ppu",
+      "nama": "TPS – Pemahaman Bacaan dan Menulis (PPU)",
+      "durasi_menit": 15,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Bacalah paragraf berikut:\n\"Pendidikan merupakan investasi jangka panjang yang tidak ternilai harganya. Melalui pendidikan, seseorang dapat mengembangkan potensi dirinya secara maksimal.\"\n\nGagasan utama paragraf tersebut adalah...",
+          "opsi": {
+            "A": "Pendidikan memerlukan investasi besar",
+            "B": "Seseorang perlu mengembangkan diri",
+            "C": "Pendidikan adalah investasi berharga untuk pengembangan diri",
+            "D": "Pendidikan tidak ternilai harganya",
+            "E": "Potensi diri perlu dikembangkan"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat manakah yang menggunakan ejaan yang benar?",
+          "opsi": {
+            "A": "Kami pergi ke-Jakarta minggu lalu",
+            "B": "Kami pergi ke Jakarta minggu lalu",
+            "C": "Kami pergi keJakarta minggu lalu",
+            "D": "Kami pergi ke jakarta minggu lalu",
+            "E": "Kami pergi ke Jakarta minggu Lalu"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sinonim dari kata 'konkret' adalah...",
+          "opsi": {
+            "A": "Abstrak",
+            "B": "Nyata",
+            "C": "Maya",
+            "D": "Imajiner",
+            "E": "Virtual"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Antonim dari kata 'efisien' adalah...",
+          "opsi": {
+            "A": "Produktif",
+            "B": "Efektif",
+            "C": "Boros",
+            "D": "Hemat",
+            "E": "Cepat"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penulisan huruf kapital yang benar terdapat pada kalimat...",
+          "opsi": {
+            "A": "Presiden jokowi mengunjungi Bandung",
+            "B": "presiden Jokowi mengunjungi Bandung",
+            "C": "Presiden Jokowi mengunjungi Bandung",
+            "D": "presiden jokowi mengunjungi bandung",
+            "E": "Presiden Jokowi mengunjungi bandung"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Makna imbuhan 'me-' pada kata 'menyanyi' adalah...",
+          "opsi": {
+            "A": "Melakukan pekerjaan",
+            "B": "Menjadi",
+            "C": "Membuat",
+            "D": "Bersifat",
+            "E": "Hasil pekerjaan"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat berikut yang menggunakan tanda baca dengan benar adalah...",
+          "opsi": {
+            "A": "Dia membeli, apel, mangga, dan jeruk.",
+            "B": "Dia membeli apel, mangga, dan jeruk.",
+            "C": "Dia membeli apel mangga dan jeruk.",
+            "D": "Dia membeli: apel mangga dan jeruk.",
+            "E": "Dia membeli apel; mangga; dan jeruk."
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Frasa 'buku yang saya beli kemarin' merupakan frasa...",
+          "opsi": {
+            "A": "Frasa verbal",
+            "B": "Frasa nominal",
+            "C": "Frasa adjektival",
+            "D": "Frasa adverbial",
+            "E": "Frasa preposisional"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat pasif yang benar dari 'Adik memakan kue' adalah...",
+          "opsi": {
+            "A": "Kue memakan adik",
+            "B": "Kue dimakan adik",
+            "C": "Kue dimakan oleh kue",
+            "D": "Dimakan kue oleh adik",
+            "E": "Adik kue dimakan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata 'sehingga' dalam kalimat merupakan konjungsi...",
+          "opsi": {
+            "A": "Koordinatif",
+            "B": "Subordinatif",
+            "C": "Korelatif",
+            "D": "Antarkalimat",
+            "E": "Temporal"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata baku yang tepat adalah...",
+          "opsi": {
+            "A": "Aktifitas",
+            "B": "Aktivitas",
+            "C": "Aktifitas",
+            "D": "Ektivitas",
+            "E": "Aktibitas"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Peribahasa 'air susu dibalas air tuba' bermakna...",
+          "opsi": {
+            "A": "Membalas kebaikan dengan kebaikan",
+            "B": "Membalas kebaikan dengan kejahatan",
+            "C": "Membalas kejahatan dengan kebaikan",
+            "D": "Tidak membalas kebaikan apapun",
+            "E": "Kebaikan selalu diingat"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang mengandung majas personifikasi adalah...",
+          "opsi": {
+            "A": "Dia secantik bunga mawar",
+            "B": "Angin berbisik lembut di telingaku",
+            "C": "Suaranya keras seperti guntur",
+            "D": "Mukanya merah seperti tomat",
+            "E": "Dia adalah singa di dalam kelompoknya"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jenis paragraf berdasarkan letak kalimat utama yang disebut paragraf induktif memiliki ciri...",
+          "opsi": {
+            "A": "Kalimat utama di awal paragraf",
+            "B": "Kalimat utama di tengah paragraf",
+            "C": "Kalimat utama di akhir paragraf",
+            "D": "Kalimat utama di awal dan akhir paragraf",
+            "E": "Tidak memiliki kalimat utama"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata 'di' pada 'di atas meja' berfungsi sebagai...",
+          "opsi": {
+            "A": "Awalan",
+            "B": "Kata depan (preposisi)",
+            "C": "Kata kerja",
+            "D": "Akhiran",
+            "E": "Konjungsi"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 16,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Tujuan utama penulisan teks eksposisi adalah...",
+          "opsi": {
+            "A": "Menghibur pembaca",
+            "B": "Meyakinkan pembaca",
+            "C": "Menginformasikan dan menjelaskan",
+            "D": "Menceritakan pengalaman",
+            "E": "Mengungkapkan perasaan"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 17,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penulisan kata ulang yang benar adalah...",
+          "opsi": {
+            "A": "Sayur-mayur",
+            "B": "Sayur mayur",
+            "C": "Sayur-Mayur",
+            "D": "SAYUR-MAYUR",
+            "E": "sayur-mayur"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 18,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang mengandung kesalahan logika adalah...",
+          "opsi": {
+            "A": "Semua siswa harus hadir tepat waktu",
+            "B": "Buku ini sangat tebal namun mudah dipahami",
+            "C": "Karena sakit, dia tidak masuk sekolah",
+            "D": "Meskipun miskin, dia adalah orang yang jujur",
+            "E": "Dia tidak masuk sekolah karena rajin"
+          },
+          "jawaban": "E"
+        },
+        {
+          "id": 19,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Struktur teks argumentasi terdiri dari...",
+          "opsi": {
+            "A": "Orientasi – Komplikasi – Resolusi",
+            "B": "Pernyataan – Alasan – Kesimpulan",
+            "C": "Deskripsi – Identifikasi – Penilaian",
+            "D": "Abstrak – Isi – Koda",
+            "E": "Pembuka – Isi – Penutup"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 20,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penggunaan tanda hubung (-) yang benar terdapat pada...",
+          "opsi": {
+            "A": "Abad ke-21",
+            "B": "Abad ke 21",
+            "C": "Abad Ke-21",
+            "D": "abad ke-21",
+            "E": "Abad Ke21"
+          },
+          "jawaban": "A"
+        }
+      ]
+    },
+    {
+      "id": "tps_pbm",
+      "nama": "TPS – Pengetahuan dan Pemahaman Umum (PBM)",
+      "durasi_menit": 25,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal...",
+          "opsi": {
+            "A": "17 Agustus 1944",
+            "B": "17 Agustus 1945",
+            "C": "18 Agustus 1945",
+            "D": "17 September 1945",
+            "E": "1 Juni 1945"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Ibu kota negara Australia adalah...",
+          "opsi": {
+            "A": "Sydney",
+            "B": "Melbourne",
+            "C": "Brisbane",
+            "D": "Canberra",
+            "E": "Perth"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sumber energi terbarukan di bawah ini adalah...",
+          "opsi": {
+            "A": "Batu bara",
+            "B": "Minyak bumi",
+            "C": "Gas alam",
+            "D": "Energi surya",
+            "E": "Nuklir"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Proses fotosintesis pada tumbuhan menghasilkan...",
+          "opsi": {
+            "A": "Karbon dioksida dan air",
+            "B": "Oksigen dan glukosa",
+            "C": "Nitrogen dan oksigen",
+            "D": "Hidrogen dan air",
+            "E": "Karbon dan glukosa"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Badan Perserikatan Bangsa-Bangsa (PBB) didirikan pada tahun...",
+          "opsi": {
+            "A": "1939",
+            "B": "1942",
+            "C": "1945",
+            "D": "1948",
+            "E": "1950"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Planet yang paling dekat dengan matahari dalam tata surya kita adalah...",
+          "opsi": {
+            "A": "Venus",
+            "B": "Bumi",
+            "C": "Mars",
+            "D": "Merkurius",
+            "E": "Jupiter"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Teori evolusi dikemukakan oleh...",
+          "opsi": {
+            "A": "Albert Einstein",
+            "B": "Isaac Newton",
+            "C": "Charles Darwin",
+            "D": "Gregor Mendel",
+            "E": "Louis Pasteur"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Mata uang yang digunakan di Jepang adalah...",
+          "opsi": {
+            "A": "Won",
+            "B": "Yuan",
+            "C": "Baht",
+            "D": "Yen",
+            "E": "Ringgit"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Komponen utama penyusun udara di atmosfer bumi adalah...",
+          "opsi": {
+            "A": "Oksigen",
+            "B": "Karbon dioksida",
+            "C": "Nitrogen",
+            "D": "Hidrogen",
+            "E": "Argon"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Pancasila sebagai dasar negara Indonesia ditetapkan pada tanggal...",
+          "opsi": {
+            "A": "1 Juni 1945",
+            "B": "17 Agustus 1945",
+            "C": "18 Agustus 1945",
+            "D": "22 Juni 1945",
+            "E": "1 Juli 1945"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Organ tubuh manusia yang berfungsi memompa darah adalah...",
+          "opsi": {
+            "A": "Paru-paru",
+            "B": "Hati",
+            "C": "Ginjal",
+            "D": "Jantung",
+            "E": "Lambung"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penemuan bola lampu ditemukan oleh...",
+          "opsi": {
+            "A": "Alexander Graham Bell",
+            "B": "Thomas Alva Edison",
+            "C": "Nikola Tesla",
+            "D": "Benjamin Franklin",
+            "E": "James Watt"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Benua terluas di dunia adalah...",
+          "opsi": {
+            "A": "Amerika",
+            "B": "Afrika",
+            "C": "Eropa",
+            "D": "Australia",
+            "E": "Asia"
+          },
+          "jawaban": "E"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam sistem hukum Indonesia, lembaga yang berwenang menguji undang-undang terhadap UUD adalah...",
+          "opsi": {
+            "A": "Mahkamah Agung",
+            "B": "Mahkamah Konstitusi",
+            "C": "Komisi Yudisial",
+            "D": "DPR",
+            "E": "Presiden"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Gerakan Reformasi 1998 Indonesia mengakhiri era pemerintahan...",
+          "opsi": {
+            "A": "Soekarno",
+            "B": "Habibie",
+            "C": "Soeharto",
+            "D": "Megawati",
+            "E": "Gus Dur"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 16,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Faktor utama yang menyebabkan terjadinya pemanasan global adalah...",
+          "opsi": {
+            "A": "Penipisan lapisan ozon",
+            "B": "Peningkatan gas rumah kaca",
+            "C": "Banyaknya hutan hujan tropis",
+            "D": "Aktivitas vulkanik",
+            "E": "Rotasi bumi"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 17,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Konferensi Asia Afrika pertama kali diadakan di...",
+          "opsi": {
+            "A": "Jakarta",
+            "B": "Bandung",
+            "C": "Surabaya",
+            "D": "Yogyakarta",
+            "E": "Bali"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 18,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Hukum Newton I menyatakan bahwa benda akan tetap diam atau bergerak lurus beraturan jika...",
+          "opsi": {
+            "A": "Ada gaya yang bekerja",
+            "B": "Tidak ada gaya yang bekerja padanya",
+            "C": "Gaya yang bekerja besar",
+            "D": "Benda memiliki massa besar",
+            "E": "Kecepatan benda sangat tinggi"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 19,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sumber daya alam yang tidak dapat diperbarui adalah...",
+          "opsi": {
+            "A": "Air",
+            "B": "Hutan",
+            "C": "Minyak bumi",
+            "D": "Angin",
+            "E": "Tanah"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 20,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "ASEAN didirikan pada tahun...",
+          "opsi": {
+            "A": "1945",
+            "B": "1955",
+            "C": "1967",
+            "D": "1975",
+            "E": "1980"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "id": "tps_pk",
+      "nama": "TPS – Pengetahuan Kuantitatif",
+      "durasi_menit": 20,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika f(x) = 2x² – 3x + 1, maka f(2) adalah...",
+          "opsi": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4",
+            "E": "5"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Nilai sin 30° + cos 60° adalah...",
+          "opsi": {
+            "A": "0",
+            "B": "½",
+            "C": "1",
+            "D": "√2",
+            "E": "√3/2"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Akar-akar dari persamaan x² – 5x + 6 = 0 adalah...",
+          "opsi": {
+            "A": "x = 1 dan x = 6",
+            "B": "x = 2 dan x = 3",
+            "C": "x = -2 dan x = -3",
+            "D": "x = 1 dan x = -6",
+            "E": "x = -1 dan x = 6"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Determinan matriks [[2,1],[3,4]] adalah...",
+          "opsi": {
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "8",
+            "E": "11"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Turunan pertama dari f(x) = 3x³ – 2x + 5 adalah...",
+          "opsi": {
+            "A": "9x² – 2",
+            "B": "9x² + 2",
+            "C": "3x² – 2",
+            "D": "9x – 2",
+            "E": "6x³ – 2"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Nilai dari log₂ 32 adalah...",
+          "opsi": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "8",
+            "E": "16"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jumlah deret aritmatika 1 + 3 + 5 + ... + 19 adalah...",
+          "opsi": {
+            "A": "75",
+            "B": "90",
+            "C": "100",
+            "D": "110",
+            "E": "125"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Peluang mendapatkan angka genap saat melempar dadu sekali adalah...",
+          "opsi": {
+            "A": "1/6",
+            "B": "1/3",
+            "C": "1/2",
+            "D": "2/3",
+            "E": "5/6"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Integral dari ∫(2x + 3)dx adalah...",
+          "opsi": {
+            "A": "2x² + 3x + C",
+            "B": "x² + 3x + C",
+            "C": "x² + 3 + C",
+            "D": "2x + 3 + C",
+            "E": "x + 3x + C"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kombinasi C(5,2) sama dengan...",
+          "opsi": {
+            "A": "5",
+            "B": "10",
+            "C": "15",
+            "D": "20",
+            "E": "25"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Nilai tan 45° adalah...",
+          "opsi": {
+            "A": "0",
+            "B": "½",
+            "C": "√2/2",
+            "D": "1",
+            "E": "√3"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika suku ke-n barisan aritmatika adalah Un = 3n + 2, suku ke-10 adalah...",
+          "opsi": {
+            "A": "28",
+            "B": "30",
+            "C": "32",
+            "D": "34",
+            "E": "36"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Nilai dari 4! (4 faktorial) adalah...",
+          "opsi": {
+            "A": "8",
+            "B": "16",
+            "C": "24",
+            "D": "32",
+            "E": "48"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Himpunan penyelesaian dari |x – 3| < 5 adalah...",
+          "opsi": {
+            "A": "x < -2 atau x > 8",
+            "B": "-2 < x < 8",
+            "C": "x < 2 atau x > 8",
+            "D": "-8 < x < 2",
+            "E": "x < -8 atau x > 2"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika vektor a = (3, 4), maka |a| (panjang vektor) adalah...",
+          "opsi": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "7",
+            "E": "12"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 16,
+          "tipe": "isian_singkat",
+          "bobot": 2,
+          "pertanyaan": "Jika luas persegi adalah 144 cm², maka keliling persegi tersebut adalah... cm",
+          "jawaban": "48"
+        },
+        {
+          "id": 17,
+          "tipe": "isian_singkat",
+          "bobot": 2,
+          "pertanyaan": "Nilai dari 2³ + 3² – 4¹ adalah...",
+          "jawaban": "13"
+        },
+        {
+          "id": 18,
+          "tipe": "isian_singkat",
+          "bobot": 2,
+          "pertanyaan": "Jumlah sudut dalam segitiga adalah... derajat",
+          "jawaban": "180"
+        },
+        {
+          "id": 19,
+          "tipe": "isian_singkat",
+          "bobot": 2,
+          "pertanyaan": "Akar kuadrat dari 225 adalah...",
+          "jawaban": "15"
+        },
+        {
+          "id": 20,
+          "tipe": "isian_singkat",
+          "bobot": 2,
+          "pertanyaan": "Jika 5x = 75, maka nilai x adalah...",
+          "jawaban": "15"
+        }
+      ]
+    },
+    {
+      "id": "literasi_indo",
+      "nama": "Literasi – Bahasa Indonesia",
+      "durasi_menit": 42.5,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Bacalah teks berikut:\n\"Perubahan iklim merupakan salah satu tantangan terbesar yang dihadapi umat manusia saat ini. Dampaknya sudah terasa di berbagai belahan dunia, mulai dari meningkatnya suhu rata-rata bumi, mencairnya es di kutub, hingga meningkatnya frekuensi bencana alam.\"\n\nTeks tersebut termasuk jenis teks...",
+          "opsi": {
+            "A": "Narasi",
+            "B": "Deskripsi",
+            "C": "Eksposisi",
+            "D": "Argumentasi",
+            "E": "Prosedur"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penggunaan kata 'yang' sebagai kata penghubung yang benar terdapat pada kalimat...",
+          "opsi": {
+            "A": "Buku yang itu milik saya",
+            "B": "Dia yang pergi ke pasar kemarin",
+            "C": "Rumah yang besar itu dijual",
+            "D": "Yang dia beli adalah buku",
+            "E": "Buku itu yang sangat mahal"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang menggunakan diksi (pilihan kata) paling tepat adalah...",
+          "opsi": {
+            "A": "Kami memohon bapak untuk hadir",
+            "B": "Kami mengundang bapak untuk datang",
+            "C": "Kami meminta bapak supaya datang",
+            "D": "Kami minta bapak hadir",
+            "E": "Kami mohon bapak supaya datang"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Berikut adalah kalimat efektif, kecuali...",
+          "opsi": {
+            "A": "Para siswa mengikuti ujian dengan tenang",
+            "B": "Para siswa-siswa mengikuti ujian",
+            "C": "Siswa mengikuti ujian dengan serius",
+            "D": "Mereka belajar setiap malam",
+            "E": "Guru menjelaskan materi dengan jelas"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Perhatikan kalimat: 'Buku tersebut merupakan karya dari seorang penulis terkenal dari Indonesia yang sudah memenangkan berbagai penghargaan internasional.'\nKalimat tersebut dapat diefektifkan menjadi...",
+          "opsi": {
+            "A": "Buku tersebut karya penulis Indonesia pemenang penghargaan internasional",
+            "B": "Buku tersebut merupakan karya penulis Indonesia pemenang berbagai penghargaan internasional",
+            "C": "Buku itu ditulis penulis Indonesia yang menang penghargaan",
+            "D": "Buku tersebut dibuat penulis Indonesia",
+            "E": "Penulis Indonesia membuat buku pemenang penghargaan"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang mengandung kata hubung subordinatif adalah...",
+          "opsi": {
+            "A": "Dia pergi dan saya tinggal",
+            "B": "Saya suka kopi atau teh",
+            "C": "Karena hujan, dia tidak jadi pergi",
+            "D": "Budi dan Ani pergi bersama",
+            "E": "Saya makan tetapi dia tidak"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Makna kata 'pragmatis' adalah...",
+          "opsi": {
+            "A": "Bersifat teoritis",
+            "B": "Berorientasi pada hal praktis dan nyata",
+            "C": "Bersifat idealis",
+            "D": "Berpikir jangka panjang",
+            "E": "Tidak memiliki prinsip"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Ciri-ciri teks laporan hasil observasi adalah...",
+          "opsi": {
+            "A": "Berisi pengalaman pribadi penulis",
+            "B": "Menyajikan imajinasi dan kreativitas",
+            "C": "Menyampaikan fakta hasil pengamatan secara objektif",
+            "D": "Berisi pendapat dan argumen penulis",
+            "E": "Menceritakan kejadian masa lalu"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam kalimat 'Dia berlari sangat cepat', kata 'sangat cepat' merupakan...",
+          "opsi": {
+            "A": "Objek",
+            "B": "Subjek",
+            "C": "Predikat",
+            "D": "Keterangan",
+            "E": "Pelengkap"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Paragraf yang baik harus memiliki...",
+          "opsi": {
+            "A": "Hanya kalimat utama",
+            "B": "Hanya kalimat penjelas",
+            "C": "Kalimat utama, kalimat penjelas, dan koherensi",
+            "D": "Banyak kalimat",
+            "E": "Berbagai jenis kalimat"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Berikut yang termasuk konjungsi temporal adalah...",
+          "opsi": {
+            "A": "Karena, sebab, oleh karena",
+            "B": "Setelah, sebelum, ketika, sementara",
+            "C": "Meskipun, walaupun, biarpun",
+            "D": "Dan, serta, beserta",
+            "E": "Atau, maupun, ataupun"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Tanda koma digunakan dalam kalimat berikut, kecuali...",
+          "opsi": {
+            "A": "Saya suka makan nasi, mie, dan roti",
+            "B": "Jakarta, 17 Agustus 1945",
+            "C": "Ia pergi, karena sakit",
+            "D": "Menurut saya, hal itu benar",
+            "E": "Oleh karena itu, kita harus berhati-hati"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat langsung yang penulisannya benar adalah...",
+          "opsi": {
+            "A": "Ibu berkata \"pergi ke sana\"",
+            "B": "Ibu berkata, 'pergi ke sana.'",
+            "C": "Ibu berkata, \"Pergi ke sana!\"",
+            "D": "ibu berkata \"Pergi ke sana!\"",
+            "E": "Ibu berkata: pergi ke sana"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Tujuan menulis resensi buku adalah untuk...",
+          "opsi": {
+            "A": "Menyalin isi buku",
+            "B": "Memberikan penilaian dan ulasan tentang buku",
+            "C": "Meringkas isi buku saja",
+            "D": "Menceritakan pengalaman membaca",
+            "E": "Mengkritik pengarang buku"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata yang mengandung makna konotasi negatif adalah...",
+          "opsi": {
+            "A": "Dokter",
+            "B": "Bunga",
+            "C": "Amplop (dalam konteks suap)",
+            "D": "Buku",
+            "E": "Rumah"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 16,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang menggunakan kata 'karena' secara benar adalah...",
+          "opsi": {
+            "A": "Karena dia pergi",
+            "B": "Dia tidak hadir karena sakit",
+            "C": "Karena sakit perginya",
+            "D": "Sakit karena dia",
+            "E": "Karena-karena itu dia pergi"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 17,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam sebuah debat, argument yang menentang pendapat lawan disebut...",
+          "opsi": {
+            "A": "Argumen pro",
+            "B": "Argumen kontra",
+            "C": "Argumen netral",
+            "D": "Argumen campuran",
+            "E": "Argumen abstrak"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 18,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kesalahan berbahasa pada kalimat 'Kami mengucapkan selamat atas dilantiknya Bapak sebagai Direktur yang baru' terletak pada...",
+          "opsi": {
+            "A": "Kata 'kami'",
+            "B": "Kata 'dilantiknya'",
+            "C": "Kata 'yang baru' yang seharusnya 'baru'",
+            "D": "Penulisan huruf kapital",
+            "E": "Penggunaan tanda baca"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 19,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jenis majas yang terdapat dalam kalimat 'Ombak berkejar-kejaran di tepi pantai' adalah...",
+          "opsi": {
+            "A": "Metafora",
+            "B": "Simile",
+            "C": "Personifikasi",
+            "D": "Hiperbola",
+            "E": "Ironi"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 20,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Artikel ilmiah populer berbeda dari artikel ilmiah karena...",
+          "opsi": {
+            "A": "Menggunakan istilah teknis yang kompleks",
+            "B": "Menggunakan bahasa yang lebih mudah dipahami masyarakat umum",
+            "C": "Tidak menggunakan data dan fakta",
+            "D": "Hanya berisi opini penulis",
+            "E": "Tidak perlu sumber referensi"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 21,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dalam karya sastra, alur yang menceritakan kejadian dari masa lalu ke masa kini disebut alur...",
+          "opsi": {
+            "A": "Maju",
+            "B": "Mundur",
+            "C": "Campuran",
+            "D": "Episodik",
+            "E": "Sirkular"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 22,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata 'daripada' digunakan secara tepat dalam kalimat...",
+          "opsi": {
+            "A": "Saya lebih suka daripada itu",
+            "B": "Lebih baik diam daripada berbicara tanpa dasar",
+            "C": "Dia pergi daripada tinggal",
+            "D": "Daripada itu, saya pilih yang lain",
+            "E": "Saya datang daripada mereka"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 23,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penulisan daftar pustaka yang benar untuk buku adalah...",
+          "opsi": {
+            "A": "Nama. Tahun. Judul. Kota: Penerbit",
+            "B": "Judul. Nama. Kota: Penerbit. Tahun",
+            "C": "Penerbit. Tahun. Nama. Judul",
+            "D": "Kota. Nama. Judul. Tahun",
+            "E": "Tahun. Judul. Nama. Penerbit"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 24,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Istilah 'bias' dalam suatu teks berita berarti...",
+          "opsi": {
+            "A": "Berita yang akurat dan objektif",
+            "B": "Berita yang memihak pada satu sudut pandang",
+            "C": "Berita yang sangat lengkap",
+            "D": "Berita dari sumber terpercaya",
+            "E": "Berita yang dikonfirmasi banyak pihak"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 25,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat manakah yang termasuk kalimat majemuk setara?",
+          "opsi": {
+            "A": "Saya tidak datang karena sakit",
+            "B": "Walaupun hujan, dia tetap datang",
+            "C": "Dia menyanyi dan saya menari",
+            "D": "Jika belajar, dia pasti lulus",
+            "E": "Setelah makan, kami beristirahat"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 26,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Penggunaan kata 'adapun' yang tepat adalah untuk...",
+          "opsi": {
+            "A": "Menyatakan sebab",
+            "B": "Menyatakan akibat",
+            "C": "Memperkenalkan topik baru dalam teks",
+            "D": "Menyatakan pertentangan",
+            "E": "Menyatakan syarat"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 27,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Teks prosedur yang baik harus menggunakan...",
+          "opsi": {
+            "A": "Kalimat pasif dan kompleks",
+            "B": "Kalimat imperatif dan langkah yang berurutan",
+            "C": "Kalimat tanya dan pendapat",
+            "D": "Kalimat emosional dan persuasif",
+            "E": "Kalimat naratif dan deskriptif"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 28,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kata berikut yang bukan merupakan kata serapan dari bahasa Inggris adalah...",
+          "opsi": {
+            "A": "Komputer",
+            "B": "Telepon",
+            "C": "Demokratis",
+            "D": "Meja",
+            "E": "Televisi"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 29,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Kalimat yang tidak ambigu (bermakna ganda) adalah...",
+          "opsi": {
+            "A": "Saya melihat orang tua itu dengan teropong",
+            "B": "Kepala sekolah baru itu mengajar",
+            "C": "Anak gadis yang cantik itu datang kemarin",
+            "D": "Dia memotong rambut temannya yang panjang",
+            "E": "Buku sejarah baru itu bagus"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 30,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Istilah 'inferensi' dalam memahami teks berarti...",
+          "opsi": {
+            "A": "Membaca teks secara harfiah",
+            "B": "Menyalin isi teks",
+            "C": "Menarik kesimpulan berdasarkan informasi dalam teks",
+            "D": "Menerjemahkan teks",
+            "E": "Meringkas teks"
+          },
+          "jawaban": "C"
+        }
+      ]
+    },
+    {
+      "id": "literasi_inggris",
+      "nama": "Literasi – Bahasa Inggris",
+      "durasi_menit": 20,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Choose the correct sentence:",
+          "opsi": {
+            "A": "She don't like coffee",
+            "B": "She doesn't likes coffee",
+            "C": "She doesn't like coffee",
+            "D": "She not like coffee",
+            "E": "She didn't likes coffee"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The word 'benevolent' most nearly means...",
+          "opsi": {
+            "A": "Harmful",
+            "B": "Kind and generous",
+            "C": "Strict",
+            "D": "Intelligent",
+            "E": "Careless"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Read the passage:\n'Climate change is increasingly recognized as a critical global challenge. Scientists warn that without significant reductions in greenhouse gas emissions, average global temperatures could rise by 2-4°C by the end of this century.'\n\nThe main idea of this passage is...",
+          "opsi": {
+            "A": "Scientists study climate",
+            "B": "Global temperatures are rising due to climate change",
+            "C": "Greenhouse gases are dangerous",
+            "D": "The century will end soon",
+            "E": "Climate change is not a problem"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Choose the correct passive voice: 'They built this bridge in 1990.'",
+          "opsi": {
+            "A": "This bridge built in 1990",
+            "B": "This bridge is built in 1990",
+            "C": "This bridge was built in 1990",
+            "D": "This bridge has been built in 1990",
+            "E": "This bridge were built in 1990"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The antonym of 'diligent' is...",
+          "opsi": {
+            "A": "Hardworking",
+            "B": "Industrious",
+            "C": "Lazy",
+            "D": "Productive",
+            "E": "Careful"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "If I ___ the answer, I would tell you.",
+          "opsi": {
+            "A": "know",
+            "B": "knew",
+            "C": "have known",
+            "D": "will know",
+            "E": "had known"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Choose the correct relative pronoun: 'The book ___ I borrowed was interesting.'",
+          "opsi": {
+            "A": "who",
+            "B": "whom",
+            "C": "whose",
+            "D": "which",
+            "E": "when"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The phrase 'to beat around the bush' means...",
+          "opsi": {
+            "A": "To speak directly",
+            "B": "To avoid the main topic",
+            "C": "To win a competition",
+            "D": "To work in a garden",
+            "E": "To finish quickly"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "She has been studying for three hours. This sentence is in the...",
+          "opsi": {
+            "A": "Simple present tense",
+            "B": "Present continuous tense",
+            "C": "Present perfect tense",
+            "D": "Present perfect continuous tense",
+            "E": "Past perfect tense"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Choose the sentence with the correct subject-verb agreement:",
+          "opsi": {
+            "A": "The team are playing well",
+            "B": "The team is playing well",
+            "C": "The team were playing well",
+            "D": "The team be playing well",
+            "E": "The team have played well"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "What does 'ambiguous' mean?",
+          "opsi": {
+            "A": "Clear and definite",
+            "B": "Open to more than one interpretation",
+            "C": "Extremely large",
+            "D": "Simple and easy",
+            "E": "Completely false"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "By next year, she ___ her degree.",
+          "opsi": {
+            "A": "will finish",
+            "B": "has finished",
+            "C": "will have finished",
+            "D": "would finish",
+            "E": "finishes"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The synonym of 'meticulous' is...",
+          "opsi": {
+            "A": "Careless",
+            "B": "Thorough and precise",
+            "C": "Quick",
+            "D": "Creative",
+            "E": "Bold"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "In academic writing, the purpose of a topic sentence is to...",
+          "opsi": {
+            "A": "Conclude the paragraph",
+            "B": "Introduce the main idea of the paragraph",
+            "C": "Provide supporting details",
+            "D": "Give examples",
+            "E": "Make a transition"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Choose the correct preposition: 'She is interested ___ learning new languages.'",
+          "opsi": {
+            "A": "at",
+            "B": "on",
+            "C": "in",
+            "D": "for",
+            "E": "by"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 16,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The word 'ephemeral' means...",
+          "opsi": {
+            "A": "Lasting forever",
+            "B": "Lasting for a very short time",
+            "C": "Very large",
+            "D": "Very important",
+            "E": "Completely new"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 17,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Which sentence uses the gerund correctly?",
+          "opsi": {
+            "A": "I enjoy to swim in the morning",
+            "B": "I enjoy swimming in the morning",
+            "C": "I enjoy swim in the morning",
+            "D": "I enjoy swam in the morning",
+            "E": "I enjoy to swimming in the morning"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 18,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "In a formal letter, which closing is most appropriate?",
+          "opsi": {
+            "A": "See ya later!",
+            "B": "Cheers",
+            "C": "Yours sincerely",
+            "D": "Take care",
+            "E": "Bye!"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 19,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "The prefix 'un-' in 'unfortunate' indicates...",
+          "opsi": {
+            "A": "Having many",
+            "B": "The opposite or negation",
+            "C": "Before",
+            "D": "After",
+            "E": "In favor of"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 20,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "When inferring the author's tone in a sarcastic text, you should look for...",
+          "opsi": {
+            "A": "Literal meaning only",
+            "B": "Words that say opposite of what is meant",
+            "C": "Only positive words",
+            "D": "The first sentence",
+            "E": "Grammar mistakes"
+          },
+          "jawaban": "B"
+        }
+      ]
+    },
+    {
+      "id": "literasi_mat",
+      "nama": "Literasi – Matematika",
+      "durasi_menit": 42.5,
+      "soal": [
+        {
+          "id": 1,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah toko menjual 120 buku dengan harga Rp 15.000 per buku. Jika diskon 20% diberikan untuk pembelian lebih dari 50 buku, berapa total yang harus dibayar?",
+          "opsi": {
+            "A": "Rp 1.440.000",
+            "B": "Rp 1.520.000",
+            "C": "Rp 1.680.000",
+            "D": "Rp 1.800.000",
+            "E": "Rp 2.000.000"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 2,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Grafik berikut menunjukkan penjualan suatu produk (dalam satuan) per bulan: Jan=50, Feb=60, Mar=45, Apr=70. Rata-rata penjualan adalah...",
+          "opsi": {
+            "A": "52,5",
+            "B": "55,75",
+            "C": "56,25",
+            "D": "57,5",
+            "E": "58"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 3,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah tangki berbentuk balok dengan panjang 4 m, lebar 3 m, dan tinggi 2 m. Berapa volume air maksimum yang dapat ditampung (dalam liter)?",
+          "opsi": {
+            "A": "12.000 liter",
+            "B": "18.000 liter",
+            "C": "20.000 liter",
+            "D": "24.000 liter",
+            "E": "30.000 liter"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 4,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Suatu investasi menghasilkan bunga majemuk 10% per tahun. Jika modal awal Rp 1.000.000, nilai investasi setelah 2 tahun adalah...",
+          "opsi": {
+            "A": "Rp 1.100.000",
+            "B": "Rp 1.200.000",
+            "C": "Rp 1.210.000",
+            "D": "Rp 1.250.000",
+            "E": "Rp 1.300.000"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 5,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah perusahaan memiliki biaya tetap Rp 500.000 dan biaya variabel Rp 200 per unit. Jika harga jual Rp 700 per unit, berapa unit minimal harus terjual untuk mencapai titik impas?",
+          "opsi": {
+            "A": "500 unit",
+            "B": "750 unit",
+            "C": "1.000 unit",
+            "D": "1.250 unit",
+            "E": "1.500 unit"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 6,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Data nilai ujian: 65, 70, 75, 80, 85, 90, 70, 75, 80, 75. Median dari data tersebut adalah...",
+          "opsi": {
+            "A": "70",
+            "B": "72,5",
+            "C": "75",
+            "D": "77,5",
+            "E": "80"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 7,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Persamaan garis lurus yang melalui titik (2, 3) dengan gradien 2 adalah...",
+          "opsi": {
+            "A": "y = 2x + 1",
+            "B": "y = 2x – 1",
+            "C": "y = x + 1",
+            "D": "y = 2x + 3",
+            "E": "y = x – 1"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 8,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Jika sebuah tabungan bertambah dari Rp 800.000 menjadi Rp 1.000.000, berapa persen kenaikannya?",
+          "opsi": {
+            "A": "15%",
+            "B": "20%",
+            "C": "25%",
+            "D": "30%",
+            "E": "35%"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 9,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah mobil menempuh 240 km dalam 3 jam pertama dan 180 km dalam 2 jam berikutnya. Kecepatan rata-rata seluruh perjalanan adalah...",
+          "opsi": {
+            "A": "78 km/jam",
+            "B": "80 km/jam",
+            "C": "82 km/jam",
+            "D": "84 km/jam",
+            "E": "86 km/jam"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 10,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dari 100 siswa, 60 suka matematika, 50 suka fisika, dan 20 suka keduanya. Berapa siswa yang tidak suka keduanya?",
+          "opsi": {
+            "A": "5",
+            "B": "10",
+            "C": "15",
+            "D": "20",
+            "E": "25"
+          },
+          "jawaban": "B"
+        },
+        {
+          "id": 11,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah lingkaran memiliki jari-jari 7 cm. Luas lingkaran tersebut adalah... (π = 22/7)",
+          "opsi": {
+            "A": "44 cm²",
+            "B": "88 cm²",
+            "C": "154 cm²",
+            "D": "196 cm²",
+            "E": "308 cm²"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 12,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sistem persamaan: 2x + y = 10 dan x – y = 2. Nilai x + y adalah...",
+          "opsi": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9",
+            "E": "10"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 13,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Suatu data memiliki modus 75 dan median 72. Berdasarkan hubungan rata-rata, modus, dan median, nilai rata-rata kira-kira adalah...",
+          "opsi": {
+            "A": "66",
+            "B": "68",
+            "C": "69",
+            "D": "71",
+            "E": "73"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 14,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dua buah dadu dilempar bersamaan. Peluang muncul mata dadu dengan jumlah 7 adalah...",
+          "opsi": {
+            "A": "1/12",
+            "B": "1/9",
+            "C": "1/6",
+            "D": "2/9",
+            "E": "1/4"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 15,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Grafik fungsi f(x) = x² – 4x + 3 memotong sumbu x di titik...",
+          "opsi": {
+            "A": "x = 1 dan x = 3",
+            "B": "x = -1 dan x = -3",
+            "C": "x = 2 dan x = 3",
+            "D": "x = 1 dan x = 4",
+            "E": "x = -1 dan x = 3"
+          },
+          "jawaban": "A"
+        },
+        {
+          "id": 16,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Sebuah peta berskala 1:500.000. Jika jarak dua kota di peta adalah 6 cm, jarak sebenarnya adalah...",
+          "opsi": {
+            "A": "25 km",
+            "B": "28 km",
+            "C": "30 km",
+            "D": "35 km",
+            "E": "40 km"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 17,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Varians dari data 2, 4, 4, 4, 5, 5, 7, 9 adalah...",
+          "opsi": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5",
+            "E": "6"
+          },
+          "jawaban": "C"
+        },
+        {
+          "id": 18,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Dari 8 orang, akan dipilih 3 orang untuk menjadi panitia. Berapa banyak cara pemilihan yang mungkin?",
+          "opsi": {
+            "A": "24",
+            "B": "36",
+            "C": "48",
+            "D": "56",
+            "E": "64"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 19,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Laju pertumbuhan penduduk suatu kota adalah 5% per tahun. Jika populasi saat ini 200.000 jiwa, populasi 2 tahun kemudian adalah...",
+          "opsi": {
+            "A": "210.000",
+            "B": "215.000",
+            "C": "220.000",
+            "D": "220.500",
+            "E": "221.000"
+          },
+          "jawaban": "D"
+        },
+        {
+          "id": 20,
+          "tipe": "pilihan_ganda",
+          "bobot": 1,
+          "pertanyaan": "Seorang penjual mendapat keuntungan 30% dari harga beli. Jika harga jual Rp 130.000, maka harga beli adalah...",
+          "opsi": {
+            "A": "Rp 90.000",
+            "B": "Rp 95.000",
+            "C": "Rp 100.000",
+            "D": "Rp 105.000",
+            "E": "Rp 110.000"
+          },
+          "jawaban": "C"
+        }
+      ]
+    }
+  ]
+}
