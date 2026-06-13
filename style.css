@@ -365,6 +365,15 @@ body {
   padding: 20px 24px;
 }
 
+.soal-text img.soal-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: calc(var(--radius-md) - 4px);
+  margin-bottom: 18px;
+  object-fit: contain;
+}
+
 /* ═══ OPSI ═══════════════════════════════════════════════ */
 .opsi-container {
   display: flex;
