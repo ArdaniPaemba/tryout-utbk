@@ -6,427 +6,454 @@
       "durasi_menit": 30,
       "soal": [
         {
-          "id": 1,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Apabila tidak pernah menang dalam kompetisi tingkat daerah, atlet tidak boleh ikut audisi untuk pertandingan nasional. Hal ini berlaku bagi atlet badminton. Manakah simpulan berikut yang BENAR?",
-          "opsi": {
+            "id": 1,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Apabila tidak pernah menang dalam kompetisi tingkat daerah, atlet tidak boleh ikut audisi untuk pertandingan nasional. Hal ini berlaku bagi atlet badminton. Manakah simpulan berikut yang BENAR?",
+            "opsi": {
             "A": "Atlet badminton diharapkan menang dalam kompetisi daerah agar dapat mengikuti kegiatan audisi nasional.",
-            "B":  "Semua atlet boleh ikut audisi untuk pertandingan nasional jika pernah menang dalam kompetisi daerah.",
+            "B": "Semua atlet boleh ikut audisi untuk pertandingan nasional jika pernah menang dalam kompetisi daerah.",
             "C": "Para atlet boleh ikut audisi untuk pertandingan nasional meski tidak pernah menang di kompetisi daerah.",
-            "D": " Semua atlet pernah menang dalam kegiatan kompetisi di tingkat daerah, kecuali para pemain badminton.",
+            "D": "Semua atlet pernah menang dalam kegiatan kompetisi di tingkat daerah, kecuali para pemain badminton.",
             "E": "Atlet badminton tidak boleh mengikuti audisi pertandingan nasional jika tidak pernah menang di kompetisi daerah."
-          },
-          "jawaban": "B"
+            },
+            "jawaban": "E"
         },
         {
-          "id": 2,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "gambar": "1364693.jpeg",
-          "pertanyaan": "Dalam sebuah barisan: 2, 4, 8, 16, ... Bilangan berikutnya adalah...",
-          "opsi": {
-            "A": "18",
-            "B": "24",
-            "C": "32",
-            "D": "28",
-            "E": "20"
-          },
-          "jawaban": "C"
+            "id": 2,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Siswa Sekolah JKH yang menjadi juara nasional paduan suara mampu membuat lagu. Sebagian dari mereka juga mampu bermain teater musikal lebih baik dari siswa sekolah lain. Manakah simpulan yang PALING TEPAT?",
+            "opsi": {
+            "A": "Semua siswa JKH mampu bermain teater musikal.",
+            "B": "Sebagian siswa yang kurang mahir bermain teater bukan siswa JKH.",
+            "C": "Semua juara nasional paduan suara JKH mampu membuat lagu dan bermain teater.",
+            "D": "Beberapa siswa JKH mampu membuat lagu tetapi tidak bisa teater musikal.",
+            "E": "Beberapa siswa JKH yang dapat membuat lagu juga dapat bermain teater musikal lebih baik dari sekolah lain."
+            },
+            "jawaban": "E"
         },
         {
-          "id": 3,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Jika BUKU = 2-21-11-21, maka MEJA = ...",
-          "opsi": {
-            "A": "13-5-10-1",
-            "B": "13-5-11-1",
-            "C": "13-5-9-1",
-            "D": "13-5-10-2",
-            "E": "14-5-10-1"
-          },
-          "jawaban": "A"
+            "id": 3,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Pada akhir pekan, SR akan menemani ibu arisan atau mengantar kakak bertemu temannya. Adiknya mengajaknya mengunjungi pameran buku. Karena lokasi pameran terlalu jauh, keduanya tidak jadi pergi ke pameran buku. Apa yang PALING MUNGKIN dilakukan SR pada akhir pekan?",
+            "opsi": {
+            "A": "Menemani ibu arisan dan mengantar kakak bertemu temannya.",
+            "B": "Menikmati akhir minggu dengan bersantai bersama keluarga di rumah",
+            "C": "Menemani ibu arisan atau mengantar kakak bertemu temannya.",
+            "D": "Menemani ibu arisan, tetapi tidak mengantar kakak bertemu temannya.",
+            "E": "Mengantar kakak bertemu temannya, tetapi tidak menemani ibu arisan."
+            },
+            "jawaban": "C"
         },
         {
-          "id": 4,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Perhatikan pola: 1, 1, 2, 3, 5, 8, 13, ... Angka selanjutnya adalah...",
-          "opsi": {
-            "A": "18",
-            "B": "20",
-            "C": "21",
-            "D": "22",
-            "E": "25"
-          },
-          "jawaban": "C"
+            "id": 4,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Ketika festival seni tradisional diadakan di Pulau ABC, jumlah wisatawan me ningkat dibandingkan ketika kegiatan tersebut tidak dilakukan. Hal serupa ter jadi ketika pameran lukisan diadakan di Pulau ABC. Namun, ketika Pulau ABC mengadakan perayaan adat daerah, jumlah wisatawan yang datang tidak meng alami peningkatan. Berdasarkan informasi di atas manakah dari pernyataan berikut yang PALING MUNGKIN BENAR?",            
+            "opsi": {
+            "A": "Meskipun pameran lukisan diadakan di pulau lain, jumlah kunjungan wi satawan ke Pulau ABC tetap meningkat.",
+            "B": "Jumlah wisatawan akan mengalami penurunan ketika tidak diadakan kegi atan pameran lukisan di Pulau ABC. ",
+            "C": "Mengadakan festival seni tradisional atau pameran lukisan di pulau lain akan menurunkan jumlah wisatawan di Pulau ABC. ",
+            "D": "Mengadakan perayaan adat meningkatkan jumlah wisatawan dibandingkan dengan tidak mengadakannya.",
+            "E": "Mengadakan festival seni tradisional atau pameran lukisan di Pulau ABC meningkatkan jumlah kunjungan wisatawan."
+            },
+            "jawaban": "E"
         },
         {
-          "id": 5,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Semua kucing adalah hewan. Sebagian hewan adalah berbulu. Maka...",
-          "opsi": {
-            "A": "Semua kucing berbulu",
-            "B": "Sebagian kucing berbulu",
-            "C": "Tidak ada kucing yang berbulu",
-            "D": "Semua yang berbulu adalah kucing",
-            "E": "Tidak dapat disimpulkan"
-          },
-          "jawaban": "E"
+            "id": 5,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Banyaknya rumah kosong yang terbengkalai di suatu kampung menyebabkan ru mah ditumbuhi tanaman liar. Banyaknya tanaman liar menyebabkan munculnya banyak nyamuk. Meskipun pengurus kampung telah melakukan sosialisasi pola hidup sehat, angka penyakit malaria tidak menurun karena banyaknya nyamuk di kampung tersebut.",         "opsi": {
+            "A": "Meningkatnya kasus malaria disebabkan oleh banyaknya rumah kosong ter bengkalai.",            
+            "B": "Lebatnya tanaman liar disebabkan kurang tepatnya sosialisasi pola hidup sehat oleh pengurus kampung.",
+            "C": "Banyaknya nyamuk menyebabkan pengurus kampung melakukan sosialisasi pola hidup sehat.",
+            "D": "Adanya sosialisasi pola hidup sehat menjadikan banyak rumah kosong ter bengkalai.",
+            "E": "Banyaknya nyamuk di kampung tersebut disebabkan oleh banyaknya rumah terbengkalai."
+            },
+            "jawaban": "E"
         },
+
         {
-          "id": 6,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Jika hari ini Senin, maka 100 hari lagi adalah hari...",
-          "opsi": {
-            "A": "Senin",
-            "B": "Selasa",
-            "C": "Rabu",
-            "D": "Kamis",
-            "E": "Jumat"
-          },
-          "jawaban": "C"
+            "id": 6,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Listrik banyak digunakan orang untuk mendapatkan pencahayaan di dalam ru angan. Selain itu, listrik juga menjadi sarana untuk menggerakkan mesin di pabrik. Namun, penggunaan listrik yang berlebihan dapat menyebabkan dam pak negatif bagi diri sendiri dan lingkungan. Penggunaan listrik yang berlebihan dapat membebani anggaran rumah tangga dan meningkatkan polusi udara. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI SALAH? ",
+            "opsi": {
+            "A": "Polusi udara meningkat karena penggunaan listrik yang berlebihan.",
+            "B": "Anggaran rumah tangga meningkat karena penggunaan listrik yang berlebihan.",
+            "C": "Listrik dapat digunakan mengatur suhu ruangan.",
+            "D": "Pengguna peralatan elektronik mungkin tidak menggunakan listrik.",
+            "E": "Penggunaan listrik berlebihan tidak menyebabkan polusi udara dan air."
+            },
+            "jawaban": "E"
         },
+
         {
-          "id": 7,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Kata yang tidak sekelompok dengan yang lain: Merah, Biru, Kuning, Bulat, Hijau",
-          "opsi": {
-            "A": "Merah",
-            "B": "Biru",
-            "C": "Kuning",
-            "D": "Bulat",
-            "E": "Hijau"
-          },
-          "jawaban": "D"
+            "id": 7,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Mengonsumsi sayuran mentah banyak dilakukan karena rasanya yang segar dan variasinya berbagai macam. Salah satu jenis sayuran mentah yang banyak dikon sumsi adalah sayuran jenis X yang warnanya yang cerah dan banyak mengandung air. Berdasarkan paparan tersebut, manakah simpulan yang PALING TEPAT?",
+            "opsi": {
+            "A": "Semua sayuran yang masih mentah banyak mengandung air.",
+            "B": "Sayuran mentah selain jenis X tidak memiliki warna yang cerah.",
+            "C": "Hanya sayuran mentah jenis X yang variasinya berbagai macam.",
+            "D": "Beberapa orang makan sayuran mentah jenis X karena menggugah selera.",
+            "E": "Sayuran mentah yang rasanya segar pasti warnanya cerah."
+            },
+            "jawaban": "D"
         },
+
         {
-          "id": 8,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Ani lebih tinggi dari Budi. Budi lebih tinggi dari Cici. Maka...",
-          "opsi": {
-            "A": "Cici lebih tinggi dari Ani",
-            "B": "Ani lebih rendah dari Cici",
-            "C": "Ani adalah yang tertinggi",
-            "D": "Budi adalah yang terendah",
-            "E": "Tidak dapat disimpulkan"
-          },
-          "jawaban": "C"
+            "id": 8,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Saat ini hanya ada beberapa penjual asongan di stasiun kota karena stasiun kota sepi penumpang. Biasanya, jika jam kantor selesai, stasiun kota ramai dipenuhi penumpang.  Berdasarkan pernyataan di atas, manakah simpulan yang BENAR?",
+            "opsi": {
+            "A": "Saat ini jam kantor selesai.",
+            "B": "Saat ini stasiun kota ramai oleh penumpang.",
+            "C": "Saat ini bukan waktunya jam kantor selesai.",
+            "D": "Saat ini stasiun kota ramai dengan pedagang asongan.",
+            "E": "Saat ini banyak penumpang kereta di stasiun kota."
+            },
+            "jawaban": "C"
         },
+
         {
-          "id": 9,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Barisan: 3, 6, 12, 24, 48, ... nilai berikutnya adalah...",
-          "opsi": {
-            "A": "72",
-            "B": "84",
-            "C": "96",
-            "D": "100",
-            "E": "108"
-          },
-          "jawaban": "C"
+            "id": 9,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Siswa X menjuarai olimpiade matematika berkat dukungan keluarga dan dorong an dalam dirinya. Adanya dorongan dalam diri terlihat dari pengurangan waktu bermain dan intensitas mengikuti bimbingan di luar kelas. Selain itu, dukungan keluarga menyebabkan siswa lebih percaya diri yang ditunjukkan oleh sikapnya yang tenang saat menghadapi lomba dan optimis saat mengikuti kejuaraan Jika siswa X merasa optimis saat mengikuti kejuaraan, manakah kesimpulan di bawah ini yang PALING MUNGKIN BENAR?",
+            "opsi": {
+            "A": "Keluarganya memberikan dukungan penuh kepada siswa tersebut.",
+            "B": "Siswa tersebut secara konsisten mengurangi waktu bermainnya.",
+            "C": "Siswa X memiliki dorongan yang sangat kuat untuk menjadi juara.",
+            "D": "Siswa tersebut mengikuti bimbingan belajar dengan konsentrasi yang tinggi.",
+            "E": "Siswa tersebut sering menjuarai perlombaan olimpiade matematika."
+            },
+            "jawaban": "A"
         },
+
         {
-          "id": 10,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Jika A > B dan C > A, maka urutan dari terbesar adalah...",
-          "opsi": {
-            "A": "A, B, C",
-            "B": "B, A, C",
-            "C": "C, A, B",
-            "D": "C, B, A",
-            "E": "A, C, B"
-          },
-          "jawaban": "C"
+            "id": 10,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Taman bermain yang selalu ramai dihibahkan kepada warga setempat untuk dikelola guna menambah pemasukan bagi warga. Setelah dikelola selama satu tahun, jumlah pengunjung menurun dan banyak penjual makanan ringan yang tutup. Manakah pernyataan yang PALING MUNGKIN menjelaskan perbedaan kedua kondisi tersebut? ",
+            "opsi": {
+            "A": "Warga setempat tidak melakukan penggantian fasilitas bermain yang sudah rusak.",
+            "B": "Setelah dikelola warga, tidak dilakukan perbaikan layanan pada taman ber main.",
+            "C": "Taman bermain sering digunakan untuk kegiatan lain yang dapat merusak fasilitas.",
+            "D": "Pada awal warga mengelola taman tersebut, taman bermain dirawat secara berkala.",
+            "E": "Taman tersebut tidak pernah mendapatkan pengarahan dari dinas pariwi sata setempat"
+            },
+            "jawaban": "B"
         },
+
         {
-          "id": 11,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Tidak ada manusia yang abadi. Socrates adalah manusia. Kesimpulan: ...",
-          "opsi": {
-            "A": "Socrates abadi",
-            "B": "Socrates tidak abadi",
-            "C": "Semua manusia seperti Socrates",
-            "D": "Sebagian manusia abadi",
-            "E": "Tidak dapat disimpulkan"
-          },
-          "jawaban": "B"
+            "id": 11,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Warga remaja perkotaan mulai menyukai mengenakan pakaian unik dengan warna-warna yang kontras dan berkilau. Banyak di antara mereka yang meng enakannya untuk sekadar berjalan-jalan di pusat perbelanjaan. Para pengamat melihat bahwa hal tersebut memengaruhi perkembangan bisnis dunia fesyen. Berdasarkan tulisan di atas, manakah yang PALING MUNGKIN mendasari ar gumen pengamat? ",
+            "opsi": {
+            "A": "Remaja kota menyalurkan ekspresinya melalui pakaian yang dikenakan.",
+            "B": "Pakaian dapat menjadi media peningkatan pengakuan terhadap remaja.",
+            "C": "Kegiatan remaja ibu kota tidak hanya dilakukan di pusat perbelanjaan.",
+            "D": "Para pengusaha di bidang fesyen mengamati kreasi pakaian remaja kota.",
+            "E": "Banyak toko yang menjual pakaian-pakaian unik khusus untuk remaja."
+            },
+            "jawaban": "E"
         },
+
         {
-          "id": 12,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Jika hujan, maka jalanan basah. Jalanan tidak basah. Maka...",
-          "opsi": {
-            "A": "Hujan",
-            "B": "Tidak hujan",
-            "C": "Mungkin hujan",
-            "D": "Mungkin tidak hujan",
-            "E": "Tidak dapat disimpulkan"
-          },
-          "jawaban": "B"
+            "id": 12,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Ahli Pendidikan 1 menyatakan bahwa Sekolah O memiliki kualitas sebagai se kolah alam yang lebih baik dibandingkan dengan Sekolah P. Ahli Pendidikan 2 menyatakan bahwa Sekolah P menggunakan lebih banyak waktunya untuk bela jar teori di ruangan kelas. Fakta menyatakan bahwa Sekolah P mendapat peng hargaan adiwiyata, yaitu sekolah yang mengintegrasikan lingkungan ke dalam sekolah. Manakah pernyataan yang PALING TEPAT berdasarkan fakta tersebut? ",
+            "opsi": {
+            "A": "Memperkuat Ahli Pendidikan 1.",
+            "B": "Memperlemah Ahli Pendidikan 1.",
+            "C": "Memperkuat Ahli Pendidikan 2.",
+            "D": "Memperlemah Ahli Pendidikan 2.",
+            "E": "Tidak relevan dengan pernyataan Ahli Pendidikan 1 dan Ahli Pendidikan 2."
+            },
+            "jawaban": "B"
         },
+
         {
-          "id": 13,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Semua siswa yang rajin akan lulus. Dewi lulus. Maka...",
-          "opsi": {
-            "A": "Dewi pasti rajin",
-            "B": "Dewi tidak rajin",
-            "C": "Dewi mungkin tidak rajin",
-            "D": "Semua yang lulus adalah rajin",
-            "E": "Tidak dapat disimpulkan apakah Dewi rajin"
-          },
-          "jawaban": "E"
+            "id": 13,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "pertanyaan": "Melukis bermanfaat untuk meningkatkan kemampuan kecerdasan karena meng embangkan pemikiran abstrak. Selain itu, melukis juga melatih motorik halus dan mengembangkan kreativitas. Meskipun demikian, terlalu lama melukis da pat berdampak negatif, seperti memunculkan rasa bosan yang dapat menurunkan minat belajar. Berdasarkan informasi tersebut, manakah pernyataan berikut yang PASTI BENAR",
+            "opsi": {
+            "A": "Beberapa orang yang memiliki minat belajar tinggi akan menyukai kegiatan melukis.",
+            "B": "Kegiatan melukis cenderung menurunkan minat belajar seseorang.",
+            "C": "Beberapa masalah terkait kejenuhan disebabkan melukis yang terlalu lama.",
+            "D": "Kurangnya daya kreativitas dapat diatasi dengan melakukan kegiatan melukis.",
+            "E": "Orang yang mengalami rasa bosan biasanya menghabiskan waktunya de ngan melukis."
+            },
+            "jawaban": "C"
         },
+
         {
           "id": 14,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Premis 1: Jika p maka q. Premis 2: p benar. Kesimpulan yang valid adalah...",
+          "pertanyaan": "Kota ZZ dikenal sebagai kota hijau yang mengutamakan kesehatan lingkungan. Hal ini terlihat dari berbagai program ramah lingkungan yang diterapkan, seperti penanaman pohon secara berkala di ruang umum. Selain itu, pemerintah kota juga memberikan insentif kepada RT yang berpartisipasi aktif dalam kegiatan pelestarian lingkungan. Berdasarkan data yang tercatat, setidaknya setiap tahun ada lima RT yang mendapatkan penghargaan. Berdasarkan paragraf di atas manakah di bawah ini pernyataan yang PALING MUNGKIN BENAR mengenai Kota ZZ?",
           "opsi": {
-            "A": "q salah",
-            "B": "p salah",
-            "C": "q benar",
-            "D": "p dan q keduanya salah",
-            "E": "Tidak dapat disimpulkan"
+          "A": "Jumlah RT yang mendapatkan penghargaan akan meningkat setiap tahun.",
+          "B": "Kota ZZ hanya memberikan insentif kepada warga menanam pohon di ruang umum.",
+          "C": "Setiap tahun ada RT yang akan mendapatkan insentif dari Pemerintah Kota ZZ.",
+          "D": "Pemerintah Kota ZZ tidak memberikan insentif sebelum ada program ramah lingkungan.",
+          "E": "Sebelum ada penghargaan, tidak ada RT ikut dalam program pelestarian lingkungan."
           },
           "jawaban": "C"
         },
+
         {
           "id": 15,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Semua pegawai mendapat tunjangan. Hendra adalah pegawai. Hendra sakit. Maka...",
+          "pertanyaan": "Seorang remaja hendak membeli sepatu yang nyaman untuk berlari. Sepatu X cocok dengan kebutuhannya, tetapi harganya mahal. Sepatu Y kurang cocok, tetapi harganya murah. Pelari tersebut akhirnya membeli sepatu X untuk memenuhi kebutuhannya sambil menghindari lecet kaki saat dipakai di lapangan. Manakah yang PALING MEMPERKUAT keputusan remaja tersebut?",
           "opsi": {
-            "A": "Hendra tidak mendapat tunjangan",
-            "B": "Hendra mendapat tunjangan",
-            "C": "Pegawai yang sakit tidak mendapat tunjangan",
-            "D": "Hendra bukan pegawai",
-            "E": "Tidak ada yang bisa disimpulkan"
+          "A": "Remaja tersebut sering berolahraga dengan menggunakan sepatu tersebut.",
+          "B": "Remaja tersebut memiliki tabungan yang cukup untuk membeli sepatu.",
+          "C": "Kenyamanan sepatu bukan pertimbangan penting untuk berlari jarak jauh.",
+          "D": "Sepatu X banyak digunakan oleh para pelari jarak jauh profesional.",
+          "E": "Sepatu Y memiliki model yang menarik sehingga banyak dipakai remaja."
           },
           "jawaban": "B"
         },
+
         {
           "id": 16,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Tidak semua burung bisa terbang. Pinguin adalah burung. Maka...",
+          "pertanyaan": "Kualitas suara gitar dinilai sebagai faktor yang paling dibutuhkan untuk mendukung keberhasilan pemusik saat di panggung. Peneliti berpendapat bahwa suara gitar merek X kurang jernih dibandingkan merek Y. Manakah pernyataan di bawah ini yang PALING MEMPERLEMAH pendapat peneliti tersebut?",
           "opsi": {
-            "A": "Pinguin pasti bisa terbang",
-            "B": "Pinguin pasti tidak bisa terbang",
-            "C": "Pinguin mungkin bisa atau tidak bisa terbang",
-            "D": "Semua burung seperti pinguin",
-            "E": "Tidak ada burung yang bisa terbang"
+          "A": "Gitar merek Y sering dipakai oleh pemusik konser-konser besar.",
+          "B": "Gitar merek X lebih jarang digunakan pemusik profesional.",
+          "C": "Gitar merek Y sudah terkenal kualitasnya di kalangan pemusik.",
+          "D": "Kualitas lagu ditentukan oleh kreativitas pemusik.",
+          "E": "Gitar merek X dibuat dari bahan pilihan yang berkualitas."
           },
-          "jawaban": "C"
+          "jawaban": "E"
         },
+
         {
           "id": 17,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Jika A maka B. Jika B maka C. A terjadi. Maka...",
+          "pertanyaan": "Manajer Keuangan PT X mengungkapkan bahwa tingkat pembelian bahan baku mengalami kenaikan yang berarti dalam dua semester ini. Hal ini disebabkan PT X berhasil menjalankan program promosi di akhir tahun. Manakah pernyataan berikut yang jika benar akan MEMPERKUAT pernyataan Manajer Keuangan PT X?",
           "opsi": {
-            "A": "C tidak terjadi",
-            "B": "B tidak terjadi",
-            "C": "C terjadi",
-            "D": "A tidak terjadi",
-            "E": "Hanya B yang terjadi"
+          "A": "Jumlah peserta program promosi di akhir tahun belakangan ini lebih banyak.",
+          "B": "Perusahaan-perusahaan lain tidak menjalankan program promosi di akhir tahun.",
+          "C": "Tidak semua pelanggan memanfaatkan program promosi di akhir tahun.",
+          "D": "Sejak dulu, pelanggan tertarik mengikuti program promosi di akhir tahun.",
+          "E": "Program promosi di akhir tahun fokus pada penjualan produk baru."
           },
-          "jawaban": "C"
+          "jawaban": "A"
         },
+
         {
           "id": 18,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Semua dokter harus lulus kuliah kedokteran. Rina lulus kuliah kedokteran. Maka...",
+          "pertanyaan": "Sejak dahulu, masyarakat Desa XY melestarikan tradisi tarian ritual sakral yang mengandung nilai-nilai sosial yang tinggi untuk menyatukan masyarakat desa. Seperti halnya api unggun yang menghangatkan dan menyatukan orang-orang di malam yang dingin, tarian itu menjadi simbol keakraban dan kebersamaan masyarakat sehingga mempererat ikatan antargenerasi. Jika persatuan masyarakat memudar, rasa memiliki terhadap tradisi Desa XY akan berkurang dan kemungkinan konflik antarwarga akan meningkat. Berdasarkan paragraf tersebut, jika tarian ritual disamakan dengan api unggun, manakah di bawah ini simpulan yang PALING MUNGKIN BENAR?",
           "opsi": {
-            "A": "Rina adalah dokter",
-            "B": "Rina bukan dokter",
-            "C": "Rina belum tentu dokter",
-            "D": "Rina pasti dokter yang baik",
-            "E": "Semua dokter seperti Rina"
+          "A": "Tradisi api unggun yang tidak dilestarikan menurunkan rasa memiliki terhadap tradisi Desa XY.",
+          "B": "Jika tradisi tarian ritual sakral dilestarikan, konflik antarwarga dapat dicegah.",
+          "C": "Tingginya konflik antarwarga desa ditandai dengan seringnya terjadi ritual diadakan.",
+          "D": "Ikatan antargenerasi tidak akrab hanya jika tradisi tarian ritual tidak dilestarikan.",
+          "E": "Tradisi tarian ritual sakral seperti api unggun yang menyatukan masyarakat desa."
           },
-          "jawaban": "C"
+          "jawaban": "E"
         },
+
         {
           "id": 19,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Pernyataan: 'Jika tidak belajar maka tidak lulus'. Kontraposisinya adalah...",
+          "pertanyaan": "Seorang atlet lari ingin meningkatkan performa tubuhnya untuk menghadapi kompetisi tingkat nasional. Karena harus menjaga asupan gizi dengan anggaran yang terbatas, ia harus memilih antara mengonsumsi makanan tinggi protein atau mengonsumsi makanan tinggi karbohidrat. Jika memilih makanan tinggi protein, ia dapat menghasilkan otot yang lebih kuat. Namun, jika memilih makanan tinggi karbohidrat, ia akan memiliki lebih banyak energi untuk latihan dan mengikuti kompetisi. Berdasarkan bacaan di atas, manakah dari pernyataan berikut yang PALING TEPAT menggambarkan keputusan atlet lari tersebut?",
           "opsi": {
-            "A": "Jika lulus maka belajar",
-            "B": "Jika belajar maka lulus",
-            "C": "Jika tidak lulus maka tidak belajar",
-            "D": "Jika lulus maka tidak belajar",
-            "E": "Jika belajar maka tidak lulus"
+          "A": "Jika memilih makanan tinggi protein, ia akan memiliki otot yang kuat maupun memiliki lebih banyak energi untuk latihan dan mengikuti kompetisi.",
+          "B": "Jika keduanya, ia akan memiliki otot yang kuat atau memiliki lebih banyak energi untuk latihan dan mengikuti kompetisi.",
+          "C": "Jika memilih salah satu jenis makanan, ia akan memiliki otot yang kuat atau memiliki lebih banyak energi untuk latihan dan mengikuti kompetisi.",
+          "D": "Jika memilih makanan tinggi karbohidrat, ia tidak akan memiliki otot yang kuat.",
+          "E": "Jika memilih salah satu jenis makanan, ia tidak akan memiliki otot yang kuat dan memiliki lebih banyak energi untuk latihan dan mengikuti kompetisi."
           },
-          "jawaban": "A"
+          "jawaban": "C"
         },
+
         {
           "id": 20,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Beberapa mahasiswa suka membaca. Semua yang suka membaca rajin. Maka...",
+          "pertanyaan": "Untuk bisa menjadi partisipan di konferensi ilmiah tentang anak berkebutuhan khusus, peserta harus mengirimkan abstrak kerja ilmiahnya. Karyanya tersebut belum pernah dipublikasikan dalam media apapun. Salah satu karya ilmiah Dosen X dipublikasikan dalam jurnal nasional milik Universitas Y. Kesimpulannya, Dosen X pernah menjadi partisipan dalam konferensi ilmiah tentang anak berkebutuhan khusus. Manakah pernyataan berikut yang menggambarkan kualitas kesimpulan tersebut?",
           "opsi": {
-            "A": "Semua mahasiswa rajin",
-            "B": "Tidak ada mahasiswa yang rajin",
-            "C": "Beberapa mahasiswa rajin",
-            "D": "Semua yang rajin adalah mahasiswa",
-            "E": "Tidak dapat disimpulkan"
+          "A": "Kesimpulan tidak relevan dengan informasi yang diberikan.",
+          "B": "Kesimpulan tersebut memiliki kemungkinan salah.",
+          "C": "Kesimpulan tersebut dapat dipastikan benar.",
+          "D": "Kesimpulan tersebut memiliki kemungkinan benar.",
+          "E": "Kesimpulan tersebut dapat dipastikan salah."
           },
-          "jawaban": "C"
+          "jawaban": "B"
         },
+
         {
           "id": 21,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Jika 3x + 5 = 20, maka nilai x adalah...",
+          "pertanyaan": "Suatu turnamen olahraga dilaksanakan selama seminggu. Jumlah penonton turnamen olahraga tersebut dari hari ketiga sampai dengan hari ketujuh berturut-turut adalah 66, 73, 70, 77, dan 74. Jika jumlah penonton turnamen olahraga tersebut bersifat konstan sejak hari pertama, jumlah penonton turnamen olahraga di hari pertama adalah",
           "opsi": {
-            "A": "3",
-            "B": "4",
-            "C": "5",
-            "D": "6",
-            "E": "7"
+          "A": "62",
+          "B": "63",
+          "C": "70",
+          "D": "72",
+          "E": "76"
           },
-          "jawaban": "C"
+          "jawaban": "A"
         },
+
         {
           "id": 22,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Sebuah toko memberikan diskon 25% untuk barang seharga Rp 200.000. Harga setelah diskon adalah...",
+          "pertanyaan": "Di koloni Mars pada tahun 2100, oksigen, air, dan makanan diproduksi dengan rasio 5 : 4 : 3 untuk mendukung kehidupan. Jika persediaan oksigen yang digunakan dalam sehari adalah 50 liter, berapa liter makanan yang dibutuhkan?",
           "opsi": {
-            "A": "Rp 140.000",
-            "B": "Rp 150.000",
-            "C": "Rp 160.000",
-            "D": "Rp 170.000",
-            "E": "Rp 175.000"
+          "A": "20 liter",
+          "B": "25 liter",
+          "C": "30 liter",
+          "D": "35 liter",
+          "E": "40 liter"
           },
-          "jawaban": "B"
+          "jawaban": "C"
         },
+
         {
           "id": 23,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Rata-rata nilai 5 siswa adalah 75. Jika satu siswa ditambahkan dengan nilai 90, rata-rata baru adalah...",
+          "pertanyaan": "Bilangan yang PALING MENDEKATI hasil pengurangan 7,79 – 87% adalah …",
           "opsi": {
-            "A": "77,5",
-            "B": "78",
-            "C": "78,5",
-            "D": "79",
-            "E": "80"
-          },
-          "jawaban": "A"
-        },
-        {
-          "id": 24,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Perbandingan uang Ani dan Budi adalah 3:5. Jika total uang mereka Rp 240.000, uang Budi adalah...",
-          "opsi": {
-            "A": "Rp 80.000",
-            "B": "Rp 90.000",
-            "C": "Rp 100.000",
-            "D": "Rp 120.000",
-            "E": "Rp 150.000"
+"A": "6 ⁵/₇",
+    "B": "6 ¹/₈",
+    "C": "6 ⁵/₉",
+    "D": "7 ⁷/₉",
+    "E": "7 ¹/₁₀"
           },
           "jawaban": "E"
         },
+
         {
-          "id": 25,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Luasnya adalah...",
-          "opsi": {
-            "A": "20 cm²",
-            "B": "40 cm²",
-            "C": "80 cm²",
-            "D": "96 cm²",
-            "E": "100 cm²"
-          },
-          "jawaban": "D"
+            "id": 24,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+          "gambar": "PU24.png",
+            "pertanyaan": "Diagram garis tersebut menunjukkan data usaha dagang. Berdasarkan data da lam diagram tersebut, manakah pernyataan yang PALING TEPAT untuk meng gambarkan neraca keuangan hasil dagang pecah belah pada tahun 2024?",
+            "opsi": {
+            "A": "Usaha dagang pecah belah mengalami kerugian.",
+            "B": "Besarnya kerugian sama dengan tahun sebelumnya.",
+            "C": "Usaha dagang pecah belah akan ditutup.",
+            "D": "Hasil usaha akan meningkat.",
+            "E": "Pedagang akan menambah modal usaha."
+            },
+            "jawaban": "e"
         },
+
         {
-          "id": 26,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Jika 20% dari suatu bilangan adalah 40, maka bilangan tersebut adalah...",
-          "opsi": {
-            "A": "100",
-            "B": "150",
-            "C": "200",
-            "D": "250",
-            "E": "300"
-          },
-          "jawaban": "C"
+            "id": 25,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "gambar":"PU25.png",
+            "pertanyaan": "Diagram garis di bawah menunjukkan data rekrutmen Perusahaan. Berdasarkan data dalam diagram tersebut, pada tahun berapa perusahaan menerima pelamar dengan persentase PALING KECIL?",
+            "opsi": {
+            "A": "2019",
+            "B": "2020",
+            "C": "2021",
+            "D": "2022",
+            "E": "2023"
+            },
+            "jawaban": "D"
         },
+
         {
-          "id": 27,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Sebuah kereta menempuh jarak 300 km dalam 4 jam. Kecepatan rata-rata kereta adalah...",
-          "opsi": {
-            "A": "60 km/jam",
-            "B": "70 km/jam",
-            "C": "75 km/jam",
-            "D": "80 km/jam",
-            "E": "90 km/jam"
-          },
-          "jawaban": "C"
+            "id": 26,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "gambar":"PU26.png",
+            "pertanyaan": "Diagram di bawah menunjukkan data peserta lomba senam di Desa A. Jika total peserta senam di Desa A adalah 200 orang, total jumlah peserta senam yang hadir kurang dari 20% adalah",
+            "opsi": {
+            "A": "60",
+            "B": "72",
+            "C": "74",
+            "D": "98",
+            "E": "102"
+            },
+            "jawaban": "D"
         },
+
         {
-          "id": 28,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Berapa banyak bilangan prima antara 10 dan 30?",
-          "opsi": {
-            "A": "3",
-            "B": "4",
-            "C": "5",
-            "D": "6",
-            "E": "7"
-          },
-          "jawaban": "C"
-        },
-        {
-          "id": 29,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Nilai dari (2³ × 2²) ÷ 2⁴ adalah...",
-          "opsi": {
-            "A": "1",
-            "B": "2",
-            "C": "4",
-            "D": "8",
-            "E": "16"
-          },
-          "jawaban": "B"
-        },
-        {
-          "id": 30,
-          "tipe": "pilihan_ganda",
-          "bobot": 1,
-          "pertanyaan": "Dalam sebuah kelas terdapat 40 siswa. Jika 60% adalah perempuan, berapa jumlah siswa laki-laki?",
-          "opsi": {
-            "A": "12",
-            "B": "14",
+            "id": 27,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+          "pertanyaan": "Sebuah usaha kecil menengah pembuat roti membeli tepung terigu selama lima hari berturut-turut sebanyak 3, 5, 7, 9, dan 11 kg. Pengolahan tepung tersebut menghasilkan roti sebanyak 5, 8, 9, 12, dan 13 kg. Jika tren perubahan tersebut bersifat konstan, berapa kg roti yang dihasilkan pada hari ke-6?",
+            "opsi": {
+            "A": "14",
+            "B": "15",
             "C": "16",
-            "D": "18",
-            "E": "20"
-          },
-          "jawaban": "C"
+            "D": "17",
+            "E": "18"
+            },
+            "jawaban": "C"
+        },
+
+        {
+            "id": 28,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+          "pertanyaan": "Jumlah penggunaan pupuk tahun lalu 20% lebih sedikit dibandingkan jumlah yang digunakan tahun ini. Jika jumlah pupuk yang digunakan tahun ini adalah 240 kg. Berapakah jumlah pupuk yang digunakan tahun lalu?",
+            "opsi": {
+            "A": "180 kg",
+            "B": "185 kg",
+            "C": "190 kg",
+            "D": "192 kg",
+            "E": "200 kg"
+            },
+            "jawaban": "D"
+        },
+
+        {
+            "id": 29,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+          "pertanyaan": "Bacalah dua informasi berikut! (1) Dari total 1.500 siswa, sebanyak 900 siswa mengikuti kegiatan ekstrakulikuler. (2) Setiap kegiatan ekstrakulikuler diikuti oleh 30 hingga 60 siswa dengan beberapa siswa mengikuti lebih dari satu kegiatan. Pilihlah informasi yang dapat digunakan untuk menjawab pertanyaan, 'Apakah lebih dari setengah jumlah siswa mengikuti setidaknya satu kegiatan ekstrakulikuler?'",
+            "opsi": {
+            "A": "Cukup (1).",
+            "B": "Cukup (2).",
+            "C": "Informasi (1) dan (2).",
+            "D": "Menggunakan (1) saja atau (2) saja.",
+            "E": "Kedua informasi tidak cukup."
+            },
+            "jawaban": "A"
+        },
+
+        {
+            "id": 30,
+            "tipe": "pilihan_ganda",
+            "bobot": 1,
+            "gambar":"PU30.png",
+          "pertanyaan": "Keuntungan penjualan sayuran biasa 1/5 dari sayuran organik. Berikut data penjualan dari lima toko pada minggu ini. Toko manakah yang memiliki keuntungan TERBESAR?",
+            "opsi": {
+            "A": "I",
+            "B": "II",
+            "C": "III",
+            "D": "IV",
+            "E": "V"
+            },
+            "jawaban": "B"
         }
-      ]
+        ]
     },
     {
       "id": "tps_ppu",
