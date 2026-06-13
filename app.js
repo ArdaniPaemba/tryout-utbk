@@ -39,6 +39,56 @@ function stripSpaces(str) {
   return String(str).trim().replace(/\s+/g, '').toLowerCase();
 }
 
+const scoreConversion = {
+  tps_pu: [
+    131.2, 156.4, 181.5, 206.7, 231.9, 257, 282.2, 307.4, 332.5, 357.7,
+    382.8, 408, 433.2, 458.3, 483.5, 508.7, 533.8, 559, 584.2, 609.3,
+    634.5, 659.6, 684.8, 710, 735.1, 760.3, 785.5, 810.6, 835.8, 861,
+    886.1
+  ],
+  tps_ppu: [
+    159.9, 195.7, 231.5, 267.3, 303.1, 338.9, 374.7, 410.5, 446.3, 482.1,
+    517.9, 553.7, 589.5, 625.3, 661.1, 696.9, 732.7, 768.5, 804.4, 840.2,
+    876
+  ],
+  tps_pbm: [
+    160.5, 195.4, 230.2, 265, 299.9, 334.7, 369.5, 404.3, 439.2, 474,
+    508.8, 543.7, 578.5, 613.3, 648.2, 683, 717.8, 752.6, 787.5, 822.3,
+    857.1
+  ],
+  tps_pk: [
+    192, 232.4, 272.8, 313.2, 353.6, 394, 434.4, 474.8, 515.2, 555.6,
+    596, 636.4, 676.8, 717.2, 757.6, 798, 838.4, 878.8, 919.2, 959.6,
+    1000
+  ],
+  literasi_indo: [
+    233.8, 266.4, 299, 331.6, 364.2, 396.8, 429.4, 462, 494.6, 527.2,
+    559.8, 592.4, 625, 657.6, 690.2, 722.8, 755.4, 788, 820.6, 853.2,
+    885.8
+  ],
+  literasi_inggris: [
+    126.3, 151.1, 175.9, 200.8, 225.6, 250.4, 275.2, 300, 324.8, 349.6,
+    374.5, 399.3, 424.1, 448.9, 473.7, 498.5, 523.4, 548.2, 573, 597.8,
+    622.6
+  ],
+  literasi_mat: [
+    242.4, 280.3, 318.1, 356, 393.9, 431.7, 469.7, 507.5, 545.4, 583.3,
+    621.2, 659.1, 697, 734.8, 772.7, 810.6, 848.5, 886.4, 924.2, 962.1,
+    1000
+  ]
+};
+
+function convertScore(subtestId, correctCount) {
+  const table = scoreConversion[subtestId];
+  if (!table) return 0;
+  const idx = Math.max(0, Math.min(correctCount, table.length - 1));
+  return table[idx];
+}
+
+function formatScore(value) {
+  return Number(value).toFixed(1).replace(/\.0$/, '');
+}
+
 /* ─── BOOT ───────────────────────────────────────────────── */
 window.addEventListener('DOMContentLoaded', async () => {
   try {
@@ -174,8 +224,19 @@ function renderSoal(soalIdx) {
     renderNavGrid();
   };
 
-  // Soal text
-  $('#soal-text').textContent = soal.pertanyaan;
+  // Soal text with optional gambar
+  const soalTextEl = $('#soal-text');
+  soalTextEl.innerHTML = '';
+  if (soal.gambar) {
+    const image = document.createElement('img');
+    image.src = soal.gambar;
+    image.alt = `Gambar soal ${soalIdx + 1}`;
+    image.className = 'soal-image';
+    soalTextEl.appendChild(image);
+  }
+  const question = document.createElement('div');
+  question.textContent = soal.pertanyaan;
+  soalTextEl.appendChild(question);
 
   // Opsi or isian
   const container = $('#opsi-container');
@@ -288,8 +349,8 @@ function endSubtest(autoEnd) {
   const st = state.data.subtests[stIdx];
   const subtests = state.data.subtests;
 
-  // Hitung skor subtest ini
-  let benar = 0, salah = 0, kosong = 0, skorSubtest = 0;
+  // Hitung jumlah benar untuk konversi nilai
+  let benar = 0, salah = 0, kosong = 0;
   st.soal.forEach((soal, i) => {
     const userAns = state.answers[stIdx][i].jawaban;
     if (userAns === null || userAns === '') {
@@ -298,11 +359,12 @@ function endSubtest(autoEnd) {
       const correct = soal.tipe === 'isian_singkat'
         ? stripSpaces(userAns) === stripSpaces(soal.jawaban)
         : userAns === soal.jawaban;
-      if (correct) { benar++; skorSubtest += soal.bobot; }
+      if (correct) { benar++; }
       else salah++;
     }
   });
 
+  const skorSubtest = convertScore(st.id, benar);
   const isLast = stIdx === subtests.length - 1;
 
   // Transition screen
@@ -319,7 +381,7 @@ function endSubtest(autoEnd) {
     <div class="t-stat"><span class="t-stat-val" style="color:var(--green-400)">${benar}</span><span class="t-stat-label">Benar</span></div>
     <div class="t-stat"><span class="t-stat-val" style="color:var(--red-400)">${salah}</span><span class="t-stat-label">Salah</span></div>
     <div class="t-stat"><span class="t-stat-val" style="color:var(--gray-400)">${kosong}</span><span class="t-stat-label">Kosong</span></div>
-    <div class="t-stat"><span class="t-stat-val">${skorSubtest}</span><span class="t-stat-label">Skor</span></div>
+    <div class="t-stat"><span class="t-stat-val">${formatScore(skorSubtest)}</span><span class="t-stat-label">Nilai</span></div>
   `;
 
   if (isLast) {
@@ -339,13 +401,12 @@ function endSubtest(autoEnd) {
 /* ─── RESULTS PAGE ───────────────────────────────────────── */
 function showResults() {
   const subtests = state.data.subtests;
-  let totalSkor = 0, totalMax = 0;
+  let totalAverage = 0;
   const subtestResults = [];
 
   subtests.forEach((st, stIdx) => {
-    let benar = 0, salah = 0, kosong = 0, skor = 0, maxSkor = 0;
+    let benar = 0, salah = 0, kosong = 0;
     st.soal.forEach((soal, i) => {
-      maxSkor += soal.bobot;
       const userAns = state.answers[stIdx][i].jawaban;
       if (userAns === null || userAns === '') {
         kosong++;
@@ -353,19 +414,19 @@ function showResults() {
         const correct = soal.tipe === 'isian_singkat'
           ? stripSpaces(userAns) === stripSpaces(soal.jawaban)
           : userAns === soal.jawaban;
-        if (correct) { benar++; skor += soal.bobot; }
+        if (correct) { benar++; }
         else salah++;
       }
     });
-    totalSkor += skor;
-    totalMax += maxSkor;
-    subtestResults.push({ st, stIdx, benar, salah, kosong, skor, maxSkor });
+    const nilai = convertScore(st.id, benar);
+    totalAverage += nilai;
+    subtestResults.push({ st, stIdx, benar, salah, kosong, nilai });
   });
 
-  // Total score display
-  $('#skor-angka').textContent = totalSkor;
-  $('#skor-max').textContent = totalMax;
-  const persen = totalMax > 0 ? Math.round((totalSkor / totalMax) * 100) : 0;
+  const avgScore = subtestResults.length > 0 ? totalAverage / subtestResults.length : 0;
+  $('#skor-angka').textContent = formatScore(avgScore);
+  $('#skor-max').textContent = '1000';
+  const persen = Math.round((avgScore / 1000) * 100);
   $('#skor-persen').textContent = `${persen}%`;
 
   // Ring animation
@@ -375,26 +436,22 @@ function showResults() {
     document.getElementById('ring-fill').style.strokeDashoffset = offset;
   }, 300);
 
-  // Per-subtest cards
+  // Per-subtest status cards
   const rincianEl = $('#hasil-rincian');
   rincianEl.innerHTML = '';
-  subtestResults.forEach(({ st, skor, maxSkor, benar, salah, kosong }) => {
-    const pct = maxSkor > 0 ? Math.round((skor / maxSkor) * 100) : 0;
+  subtestResults.forEach(({ st, benar, salah, kosong, nilai }) => {
     const card = document.createElement('div');
     card.className = 'rincian-card';
     card.innerHTML = `
       <div class="rincian-nama">${st.nama}</div>
-      <div class="rincian-skor">
-        <span class="rincian-skor-val">${skor}</span>
-        <span class="rincian-skor-max">/ ${maxSkor}</span>
-      </div>
-      <div class="rincian-bar-bg">
-        <div class="rincian-bar-fill" style="width:${pct}%"></div>
-      </div>
       <div class="rincian-stats">
         <span class="rs-benar">✔ ${benar} benar</span>
         <span class="rs-salah">✘ ${salah} salah</span>
         <span class="rs-kosong">— ${kosong} kosong</span>
+      </div>
+      <div class="rincian-skor">
+        <span class="rincian-skor-val">${formatScore(nilai)}</span>
+        <span class="rincian-skor-max">/ 1000</span>
       </div>
     `;
     rincianEl.appendChild(card);
@@ -524,19 +581,11 @@ function exportResult() {
   text += 'HASIL TRYOUT UTBK\n';
   text += '============================\n\n';
 
-  let totalSkor = 0;
-  let totalMax = 0;
-
+  let totalAverage = 0;
   subtests.forEach((st, stIdx) => {
-    let skor = 0;
-    let max = 0;
-    let benar = 0;
-    let salah = 0;
-    let kosong = 0;
+    let benar = 0, salah = 0, kosong = 0;
 
     st.soal.forEach((soal, i) => {
-      max += soal.bobot;
-
       const userAns = state.answers[stIdx][i].jawaban;
 
       if (userAns === null || userAns === '') {
@@ -549,27 +598,26 @@ function exportResult() {
 
         if (correct) {
           benar++;
-          skor += soal.bobot;
         } else {
           salah++;
         }
       }
     });
 
-    totalSkor += skor;
-    totalMax += max;
+    const nilai = convertScore(st.id, benar);
+    totalAverage += nilai;
 
     text += `${st.nama}\n`;
-    text += `Skor : ${skor}/${max}\n`;
     text += `Benar: ${benar}\n`;
     text += `Salah: ${salah}\n`;
     text += `Kosong: ${kosong}\n`;
+    text += `Nilai: ${formatScore(nilai)} / 1000\n`;
     text += '\n';
   });
 
   text += '============================\n';
-  text += `TOTAL SKOR : ${totalSkor}/${totalMax}\n`;
-  text += `PERSENTASE : ${Math.round((totalSkor / totalMax) * 100)}%\n`;
+  text += `NILAI AKHIR : ${formatScore(totalAverage / subtests.length)} / 1000\n`;
+  text += `PERSENTASE : ${Math.round((totalAverage / subtests.length / 1000) * 100)}%\n`;
 
   const blob = new Blob([text], {
     type: 'text/plain'
