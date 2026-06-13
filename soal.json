@@ -1,21 +1,21 @@
 {
   "subtests": [
     {
-      "id": "tps_pu_induktif",
-      "nama": "TPS – Penalaran Umum: Induktif",
-      "durasi_menit": 10,
+      "id": "tps_pu",
+      "nama": "TPS - Penalaran Umum (PU)",
+      "durasi_menit": 30,
       "soal": [
         {
           "id": 1,
           "tipe": "pilihan_ganda",
           "bobot": 1,
-          "pertanyaan": "Semua dokter adalah sarjana. Andi adalah dokter. Kesimpulan yang tepat adalah...",
+          "pertanyaan": "Apabila tidak pernah menang dalam kompetisi tingkat daerah, atlet tidak boleh ikut audisi untuk pertandingan nasional. Hal ini berlaku bagi atlet badminton. Manakah simpulan berikut yang BENAR?",
           "opsi": {
-            "A": "Andi bukan sarjana",
-            "B": "Andi adalah sarjana",
-            "C": "Andi belum tentu sarjana",
-            "D": "Semua sarjana adalah dokter",
-            "E": "Tidak ada kesimpulan yang tepat"
+            "A": "Atlet badminton diharapkan menang dalam kompetisi daerah agar dapat mengikuti kegiatan audisi nasional.",
+            "B":  "Semua atlet boleh ikut audisi untuk pertandingan nasional jika pernah menang dalam kompetisi daerah.",
+            "C": "Para atlet boleh ikut audisi untuk pertandingan nasional meski tidak pernah menang di kompetisi daerah.",
+            "D": " Semua atlet pernah menang dalam kegiatan kompetisi di tingkat daerah, kecuali para pemain badminton.",
+            "E": "Atlet badminton tidak boleh mengikuti audisi pertandingan nasional jika tidak pernah menang di kompetisi daerah."
           },
           "jawaban": "B"
         },
@@ -23,6 +23,7 @@
           "id": 2,
           "tipe": "pilihan_ganda",
           "bobot": 1,
+          "gambar": "1364693.jpeg",
           "pertanyaan": "Dalam sebuah barisan: 2, 4, 8, 16, ... Bilangan berikutnya adalah...",
           "opsi": {
             "A": "18",
@@ -144,16 +145,9 @@
             "E": "A, C, B"
           },
           "jawaban": "C"
-        }
-      ]
-    },
-    {
-      "id": "tps_pu_deduktif",
-      "nama": "TPS – Penalaran Umum: Deduktif",
-      "durasi_menit": 10,
-      "soal": [
+        },
         {
-          "id": 1,
+          "id": 11,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Tidak ada manusia yang abadi. Socrates adalah manusia. Kesimpulan: ...",
@@ -167,7 +161,7 @@
           "jawaban": "B"
         },
         {
-          "id": 2,
+          "id": 12,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Jika hujan, maka jalanan basah. Jalanan tidak basah. Maka...",
@@ -181,7 +175,7 @@
           "jawaban": "B"
         },
         {
-          "id": 3,
+          "id": 13,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Semua siswa yang rajin akan lulus. Dewi lulus. Maka...",
@@ -195,7 +189,7 @@
           "jawaban": "E"
         },
         {
-          "id": 4,
+          "id": 14,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Premis 1: Jika p maka q. Premis 2: p benar. Kesimpulan yang valid adalah...",
@@ -209,7 +203,7 @@
           "jawaban": "C"
         },
         {
-          "id": 5,
+          "id": 15,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Semua pegawai mendapat tunjangan. Hendra adalah pegawai. Hendra sakit. Maka...",
@@ -223,7 +217,7 @@
           "jawaban": "B"
         },
         {
-          "id": 6,
+          "id": 16,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Tidak semua burung bisa terbang. Pinguin adalah burung. Maka...",
@@ -237,7 +231,7 @@
           "jawaban": "C"
         },
         {
-          "id": 7,
+          "id": 17,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Jika A maka B. Jika B maka C. A terjadi. Maka...",
@@ -251,7 +245,7 @@
           "jawaban": "C"
         },
         {
-          "id": 8,
+          "id": 18,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Semua dokter harus lulus kuliah kedokteran. Rina lulus kuliah kedokteran. Maka...",
@@ -265,7 +259,7 @@
           "jawaban": "C"
         },
         {
-          "id": 9,
+          "id": 19,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Pernyataan: 'Jika tidak belajar maka tidak lulus'. Kontraposisinya adalah...",
@@ -279,7 +273,7 @@
           "jawaban": "A"
         },
         {
-          "id": 10,
+          "id": 20,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Beberapa mahasiswa suka membaca. Semua yang suka membaca rajin. Maka...",
@@ -291,16 +285,9 @@
             "E": "Tidak dapat disimpulkan"
           },
           "jawaban": "C"
-        }
-      ]
-    },
-    {
-      "id": "tps_pu_kuantitatif",
-      "nama": "TPS – Penalaran Umum: Kuantitatif",
-      "durasi_menit": 10,
-      "soal": [
+        },
         {
-          "id": 1,
+          "id": 21,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Jika 3x + 5 = 20, maka nilai x adalah...",
@@ -314,7 +301,7 @@
           "jawaban": "C"
         },
         {
-          "id": 2,
+          "id": 22,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Sebuah toko memberikan diskon 25% untuk barang seharga Rp 200.000. Harga setelah diskon adalah...",
@@ -328,7 +315,7 @@
           "jawaban": "B"
         },
         {
-          "id": 3,
+          "id": 23,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Rata-rata nilai 5 siswa adalah 75. Jika satu siswa ditambahkan dengan nilai 90, rata-rata baru adalah...",
@@ -342,7 +329,7 @@
           "jawaban": "A"
         },
         {
-          "id": 4,
+          "id": 24,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Perbandingan uang Ani dan Budi adalah 3:5. Jika total uang mereka Rp 240.000, uang Budi adalah...",
@@ -356,7 +343,7 @@
           "jawaban": "E"
         },
         {
-          "id": 5,
+          "id": 25,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Luasnya adalah...",
@@ -370,7 +357,7 @@
           "jawaban": "D"
         },
         {
-          "id": 6,
+          "id": 26,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Jika 20% dari suatu bilangan adalah 40, maka bilangan tersebut adalah...",
@@ -384,7 +371,7 @@
           "jawaban": "C"
         },
         {
-          "id": 7,
+          "id": 27,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Sebuah kereta menempuh jarak 300 km dalam 4 jam. Kecepatan rata-rata kereta adalah...",
@@ -398,7 +385,7 @@
           "jawaban": "C"
         },
         {
-          "id": 8,
+          "id": 28,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Berapa banyak bilangan prima antara 10 dan 30?",
@@ -412,7 +399,7 @@
           "jawaban": "C"
         },
         {
-          "id": 9,
+          "id": 29,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Nilai dari (2³ × 2²) ÷ 2⁴ adalah...",
@@ -426,7 +413,7 @@
           "jawaban": "B"
         },
         {
-          "id": 10,
+          "id": 30,
           "tipe": "pilihan_ganda",
           "bobot": 1,
           "pertanyaan": "Dalam sebuah kelas terdapat 40 siswa. Jika 60% adalah perempuan, berapa jumlah siswa laki-laki?",
